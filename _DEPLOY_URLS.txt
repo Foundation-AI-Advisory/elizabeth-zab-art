@@ -3,11 +3,10 @@ Foundation AI Advisory · Thomas Wagenberg
 
 >>> CLIENT CHOSE PROTOTYPE C (Studio Visit / Local) — 2026-06-23 <<<
 
-Prototype A — Brand Homepage             | https://elizabeth-zab-prototype-a.vercel.app
 Prototype B — Gallery First              | https://elizabeth-zab-prototype-b.vercel.app
 Prototype C — Studio Visit / Local  ★    | https://elizabeth-zab-prototype-c.vercel.app   (the chosen one)
 
-All three sites have six pages: /, /work, /story, /studio, /designers, /qa
+Both sites have six pages: /, /work, /story, /studio, /designers, /qa
 
 ACCESS: Unlisted / link-only. Not public, not indexed.
   - <meta name="robots" content="noindex, nofollow"> on every page

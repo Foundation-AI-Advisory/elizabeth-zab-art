@@ -3,7 +3,7 @@ set -e
 cd "$(dirname "$0")"
 
 echo "================================================="
-echo "Elizabeth Zab Art — Vercel deploy (3 prototypes)"
+echo "Elizabeth Zab Art — Vercel deploy (2 prototypes)"
 echo "================================================="
 echo ""
 
@@ -21,7 +21,7 @@ URLS_FILE="$PWD/_DEPLOY_URLS.txt"
 echo "Vercel deploy results — $(date)" > "$URLS_FILE"
 echo "" >> "$URLS_FILE"
 
-for slug in elizabeth-zab-prototype-a elizabeth-zab-prototype-b elizabeth-zab-prototype-c; do
+for slug in elizabeth-zab-prototype-b elizabeth-zab-prototype-c; do
   echo ""
   echo "--- Deploying $slug ---"
   cd "$PWD/$slug" 2>/dev/null || cd "$(dirname "$0")/$slug"
@@ -33,7 +33,7 @@ done
 
 echo ""
 echo "================================================="
-echo "All three deployed. URLs saved to:"
+echo "Both deployed. URLs saved to:"
 echo "  $URLS_FILE"
 echo "================================================="
 echo ""

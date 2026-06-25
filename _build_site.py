@@ -18,7 +18,6 @@ PAINTINGS = [
 ]
 
 PROTOS = {
-    'a': {'slug': 'elizabeth-zab-prototype-a', 'base': 'https://elizabeth-zab-prototype-a.vercel.app'},
     'b': {'slug': 'elizabeth-zab-prototype-b', 'base': 'https://elizabeth-zab-prototype-b.vercel.app'},
     'c': {'slug': 'elizabeth-zab-prototype-c', 'base': 'https://elizabeth-zab-prototype-c.vercel.app'},
 }
@@ -53,11 +52,11 @@ STUDIO_HOURS = [
 ]
 
 # ---------------------------------------------------------------------------
-# CSS — locked design system (extracted verbatim from prototype A) + additions
+# CSS — locked design system (extracted verbatim from prototype C) + additions
 # ---------------------------------------------------------------------------
 
 def base_css():
-    src = os.path.join(ROOT, 'elizabeth-zab-prototype-a', 'index.html')
+    src = os.path.join(ROOT, 'elizabeth-zab-prototype-c', 'index.html')
     with open(src, 'r', encoding='utf-8', errors='replace') as f:
         html = f.read()
     style = re.search(r'<style>(.*?)</style>', html, re.S).group(1)
@@ -539,50 +538,6 @@ def featured(items, cols):
 
 # ----- HOME PAGES -----
 
-def home_a(proto):
-    inner = f"""<section class="hero" style="padding:0;">
-  <div class="hero-img" style="{hero_style('painting_1.jpg')}"></div>
-  <div class="hero-content">
-    <span class="eyebrow" style="color: var(--accent-wash);">Akron · Salon Lofts</span>
-    <h1 style="margin-top: 16px;">Original pour paintings, made one breath at a time.</h1>
-    <p class="lede">Color, movement, organic flow. Each piece is poured, shaped, and finished by hand at my Salon Lofts studio in Akron.</p>
-    <div class="cta-row">
-      <a href="/work" class="btn">See the work</a>
-      <a href="/studio" class="btn btn-ghost">Visit the studio</a>
-    </div>
-  </div>
-</section>
-
-<section class="container">
-  <span class="eyebrow">Recent work</span>
-  <h2 style="margin: 12px 0 48px; max-width: 620px;">A selection of recent pieces.</h2>
-{featured([
-    ('painting_6.jpg', 'No. 01', 'Purple, silver, and yellow on a dark ground'),
-    ('painting_3_c.jpg', 'No. 02', 'Rust, slate blue, and cream pour'),
-    ('painting_8.jpg', 'No. 03', 'Black, yellow, and red, a bold vertical pour'),
-], 3)}
-  <div style="text-align:center; margin-top:48px;"><a href="/work" class="btn btn-ghost">View all work</a></div>
-</section>
-
-<section class="wash">
-  <div class="narrow" style="text-align:center;">
-    <span class="eyebrow">The story</span>
-    <h2 style="margin: 12px 0 24px;">A painting is a kind of dance.</h2>
-    <div class="pull-quote" style="border-left: 0; border-top: 2px solid var(--brand); padding: 24px 0 0; text-align:center; max-width: 580px; margin: 0 auto;">"The hairdryer is part of the process. It moves the paint, opens the cells, and gives each piece its breath."</div>
-    <p style="margin-top: 28px; font-size: 17px; line-height: 1.75;">I'm Elizabeth, an abstract artist working primarily in acrylic pouring and fluid art techniques. Every piece is poured, shaped with warm air, signed, and dated by hand.</p>
-    <div style="margin-top:32px;"><a href="/story" class="btn btn-ghost">Read the story</a></div>
-  </div>
-</section>
-
-<div class="band">
-  <h2>Come see the work in person.</h2>
-  <p>Walk in from the Salon Lofts lobby in Akron, or call ahead to plan a visit.</p>
-  <a href="/studio" class="btn">Visit the studio</a>
-</div>
-"""
-    return wrap(proto, 'index', inner, jsonld_index(PROTOS[proto]['base']))
-
-
 def home_b(proto):
     inner = f"""<section class="hero hero-b" style="padding:0;">
   <div class="hero-img" style="{hero_style('painting_1.jpg')}"></div>
@@ -669,7 +624,7 @@ def home_c(proto):
     return wrap(proto, 'index', inner, jsonld_index(PROTOS[proto]['base']))
 
 
-HOME = {'a': home_a, 'b': home_b, 'c': home_c}
+HOME = {'b': home_b, 'c': home_c}
 
 # ----- SHARED SUB-PAGES -----
 

@@ -250,6 +250,11 @@ def head(proto, page, jsonld=''):
 <meta name="geo.placename" content="Akron, Ohio">
 <meta name="geo.position" content="41.0814;-81.5190">
 <meta name="ICBM" content="41.0814, -81.5190">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#2D4434">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
@@ -908,6 +913,13 @@ def build():
         hero_src = os.path.expanduser('~/Desktop/image for Elizabeth.jpeg')
         if os.path.exists(hero_src):
             shutil.copy2(hero_src, os.path.join(assets, 'hero_c.jpg'))
+
+        # favicons / app icons at the project root
+        brand = os.path.join(ROOT, '_brand')
+        for fav in ('favicon.ico', 'favicon.svg', 'favicon-32.png', 'favicon-192.png', 'apple-touch-icon.png'):
+            fsrc = os.path.join(brand, fav)
+            if os.path.exists(fsrc):
+                shutil.copy2(fsrc, os.path.join(d, fav))
 
         # home
         write(os.path.join(d, 'index.html'), HOME[proto](proto))

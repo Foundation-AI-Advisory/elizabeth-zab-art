@@ -224,6 +224,8 @@ hr {
   color: var(--white);
 }
 .hero h1 { color: var(--white); font-weight: 300; max-width: 720px; }
+/* hero tagline: clauses stay inline (2 lines) on desktop, stack cleanly on mobile */
+.hero-tagline .ht-last { display: block; }
 .hero p.lede {
   color: rgba(255,255,255,0.92);
   font-size: 18px;
@@ -710,6 +712,9 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
   .studio-card .card-actions{ justify-content:center; }
   .studio-card .card-actions .btn{ width:100%; text-align:center; }
   .final-cta-row .btn{ display:inline-flex; }
+  /* stack the hero tagline one clause per line so nothing orphans */
+  .hero-tagline{ font-size:clamp(34px,10vw,40px); line-height:1.12; letter-spacing:-0.01em; }
+  .hero-tagline span{ display:block; }
 }
 
 /* ---------- homepage redesign: section head + immersive process band ---------- */
@@ -872,7 +877,7 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
   <div class="hero-img" role="img" aria-label="Pink, green and silver abstract acrylic pour painting by Elizabeth Zab, Akron Ohio" style="background-image: linear-gradient(105deg, rgba(45,68,52,0.72) 0%, rgba(45,68,52,0.42) 45%, rgba(45,68,52,0.10) 75%, rgba(45,68,52,0.02) 100%), url('/assets/painting_1.jpg');"></div>
   <div class="hero-content">
     <span class="eyebrow" style="color: var(--accent-wash);">Abstract fluid art · Akron, Ohio</span>
-    <h1 style="margin-top: 16px;">Walk In, See the Work,<br>Take One Home.</h1>
+    <h1 class="hero-tagline" style="margin-top: 16px;"><span>Walk In,</span> <span>See the Work,</span> <span class="ht-last">Take One Home.</span></h1>
     <p class="lede">Fluid, layered abstract work — made by hand, and seen in person at my studio inside Salon Lofts.</p>
     <div class="cta-row">
       <a href="/work/" class="btn btn-brand">View the work</a>

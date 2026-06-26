@@ -195,6 +195,13 @@ hr {
   letter-spacing: 0.06em;
 }
 .artfest-strip .sep { opacity: 0.4; margin: 0 12px; }
+.artfest-strip a.strip-link{ color:inherit; text-decoration:none; display:inline-block; }
+.artfest-strip a.strip-link:hover{ color:#fff; }
+.home-artfest{ background:var(--ink); color:var(--white); text-align:center; padding:clamp(56px,8vw,92px) 32px; }
+.home-artfest .ha-inner{ max-width:680px; margin:0 auto; }
+.home-artfest h2{ color:var(--white); font-weight:300; margin:12px 0 0; }
+.home-artfest p{ color:rgba(255,255,255,0.9); font-size:17px; line-height:1.7; margin:16px 0 0; }
+.home-artfest .btn{ margin-top:28px; }
 
 /* HERO */
 .hero {
@@ -853,11 +860,11 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
 </head>
 <body id="top">
 
-<div class="artfest-strip">
+<div class="artfest-strip"><a href="/boston-mills-artfest/" class="strip-link">
   <strong>Boston Mills Artfest</strong>
   <span class="sep">·</span> June 27–28
   <span class="sep">·</span> Booth #88, North Tent
-  <span class="sep">·</span> Cuyahoga Valley, OH
+  <span class="sep">·</span> Cuyahoga Valley, OH</a>
 </div>
 
 <header class="site-header">
@@ -914,6 +921,16 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
       </div>
       <div class="cap"><span class="no">No. 03</span>Blue, black, and white pour, still wet</div>
     </div>
+  </div>
+</section>
+
+<!-- BOSTON MILLS ARTFEST CALLOUT -->
+<section class="home-artfest" aria-label="Boston Mills Artfest">
+  <div class="ha-inner">
+    <span class="eyebrow" style="color:var(--accent);">Now showing</span>
+    <h2>See Lis at Boston Mills Artfest</h2>
+    <p>Lis will be showing her poured-paint work at the 52nd Annual Boston Mills Artfest &mdash; Weekend One, June 27&ndash;28, Booth #88 &mdash; one of Northeast Ohio&rsquo;s long-running fine art events.</p>
+    <a href="/boston-mills-artfest/" class="btn btn-brand">View Event Details</a>
   </div>
 </section>
 
@@ -982,6 +999,7 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
     <a href="/studio/" style="margin:0 10px;">Studio</a>
     <a href="/designers/" style="margin:0 10px;">Designers</a>
     <a href="/qa/" style="margin:0 10px;">Q&amp;A</a>
+    <a href="/boston-mills-artfest/" style="margin:0 10px;">Artfest</a>
   </nav>
   <div class="legal">© Elizabeth Zab Art · Akron, OH</div>
 </footer>

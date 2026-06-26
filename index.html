@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script>document.documentElement.classList.add('js');</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F039HJSL10"></script>
 <script>
@@ -577,6 +578,54 @@ section.dark .eyebrow { color: var(--accent); }
 .feat .cap{ display:flex; flex-direction:column; gap:5px; margin-top:18px; padding-top:16px; border-top:1px solid rgba(46,42,41,0.12); font-size:13px; color:var(--body); letter-spacing:0.02em; line-height:1.5; }
 .feat .cap .no{ color:var(--brand-deep); font-weight:600; font-size:11px; letter-spacing:0.18em; text-transform:uppercase; }
 
+/* ---------- Poured-paint motion for home artwork cards ---------- */
+.art-card{ perspective: 1100px; }
+.art-frame{
+  position: relative; overflow: hidden; border-radius: 2px;
+  transform: rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(var(--lift,0px)) scale(var(--hscale,1));
+  transition: transform .6s cubic-bezier(.2,.7,.2,1), box-shadow .6s ease;
+  box-shadow: 0 12px 30px -22px rgba(45,68,52,0.5);
+  --lift: 0px; --hscale: 1;
+}
+.art-frame.is-tilting{ transition: transform .18s ease-out, box-shadow .6s ease; }
+.art-media{ display:block; transform: scale(1.04); transform-origin:center; }
+.art-card.in .art-media{ animation: artDrift var(--float-dur,15s) ease-in-out infinite; will-change: transform; }
+@keyframes artDrift{
+  0%,100%{ transform: translate3d(0,0,0) scale(1.04) rotate(0deg); }
+  50%{ transform: translate3d(var(--float-x,0px), var(--float-y,-6px), 0) scale(var(--float-scale,1.06)) rotate(var(--float-rot,0deg)); }
+}
+/* gloss / wet-light sweep */
+.art-frame::after{
+  content:""; position:absolute; inset:0; z-index:2; pointer-events:none;
+  background: linear-gradient(var(--gloss-angle,115deg), transparent 32%, rgba(255,255,255,0.18) 47%, rgba(255,255,255,0.42) 50%, rgba(255,255,255,0.18) 53%, transparent 68%);
+  transform: translateX(-130%); mix-blend-mode: screen; opacity: .85;
+}
+@media (hover:hover) and (pointer:fine){
+  .art-frame:hover{
+    --lift: -8px; --hscale: calc(1 + var(--hover-depth,0.022));
+    box-shadow: 0 26px 54px -26px rgba(45,68,52,0.55);
+  }
+  .art-frame::after{ transition: transform 0s; }
+  .art-frame:hover::after{ transform: translateX(130%); transition: transform 1.15s cubic-bezier(.25,.6,.2,1); }
+}
+@media (hover:none){
+  .art-card.in .art-frame::after{ animation: artGloss 1.7s cubic-bezier(.25,.6,.2,1) calc(var(--motion-delay,0s) + .25s) 1 both; }
+}
+@keyframes artGloss{ 0%{transform:translateX(-130%);} 60%,100%{transform:translateX(130%);} }
+/* scroll reveal (only hidden when JS is active, so it degrades gracefully) */
+.js .art-card.reveal{ opacity:0; transform: translateY(26px);
+  transition: opacity .85s ease var(--motion-delay,0s), transform .85s cubic-bezier(.2,.7,.2,1) var(--motion-delay,0s); }
+.art-card.reveal.in{ opacity:1; transform:none; }
+.js .art-card.reveal .cap{ opacity:0; transform: translateY(10px);
+  transition: opacity .7s ease calc(var(--motion-delay,0s) + .18s), transform .7s cubic-bezier(.2,.7,.2,1) calc(var(--motion-delay,0s) + .18s); }
+.art-card.reveal.in .cap{ opacity:1; transform:none; }
+@media (prefers-reduced-motion: reduce){
+  .art-media{ animation: none !important; transform: scale(1.04) !important; }
+  .art-frame{ transition: none !important; }
+  .art-frame::after{ display:none !important; }
+  .js .art-card.reveal, .js .art-card.reveal .cap{ opacity:1 !important; transform:none !important; transition:none !important; }
+}
+
 /* full-width gallery span + mobile collapse */
 .gw-w-12{ grid-column: span 12; }
 @media (max-width:880px){ .gw-w-12{ grid-column: span 1; } }
@@ -842,16 +891,22 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
     <a href="/work/" class="view-all">View all work <span class="arr">&rarr;</span></a>
   </div>
   <div class="feat feat-3">
-    <div>
-      <div class="media r-45" role="img" aria-label="Purple, silver, and yellow on a dark ground, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_6.jpg');"></div>
+    <div class="art-card reveal" data-tilt-max="6" style="--motion-delay:0s; --float-x:0px; --float-y:-7px; --float-rot:0deg; --float-scale:1.06; --float-dur:15s; --gloss-angle:115deg; --hover-depth:.020;">
+      <div class="art-frame">
+        <div class="art-media media r-45" role="img" aria-label="Purple, silver, and yellow on a dark ground, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_6.jpg');"></div>
+      </div>
       <div class="cap"><span class="no">No. 01</span>Purple, silver, and yellow on a dark ground</div>
     </div>
-    <div>
-      <div class="media r-45" role="img" aria-label="Rust, slate blue, and cream pour, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_3_c.jpg');"></div>
+    <div class="art-card reveal" data-tilt-max="9" style="--motion-delay:.12s; --float-x:6px; --float-y:-5px; --float-rot:.5deg; --float-scale:1.055; --float-dur:17s; --gloss-angle:100deg; --hover-depth:.028;">
+      <div class="art-frame">
+        <div class="art-media media r-45" role="img" aria-label="Rust, slate blue, and cream pour, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_3_c.jpg');"></div>
+      </div>
       <div class="cap"><span class="no">No. 02</span>Rust, slate blue, and cream pour</div>
     </div>
-    <div>
-      <div class="media r-45" role="img" aria-label="Blue, black, and white pour, still wet, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_5_c.jpg');"></div>
+    <div class="art-card reveal" data-tilt-max="6" style="--motion-delay:.24s; --float-x:-4px; --float-y:-6px; --float-rot:-.4deg; --float-scale:1.075; --float-dur:13s; --gloss-angle:125deg; --hover-depth:.022;">
+      <div class="art-frame">
+        <div class="art-media media r-45" role="img" aria-label="Blue, black, and white pour, still wet, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_5_c.jpg');"></div>
+      </div>
       <div class="cap"><span class="no">No. 03</span>Blue, black, and white pour, still wet</div>
     </div>
   </div>
@@ -948,6 +1003,56 @@ function ezCookie(v){
   var b = document.getElementById('cookieBanner');
   if (b) b.hidden = true;
 }
+</script>
+
+<script>
+/* Poured-paint motion for the home artwork cards: scroll reveal + pointer tilt */
+(function(){
+  var cards = [].slice.call(document.querySelectorAll('.art-card'));
+  if (!cards.length) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Staggered scroll reveal (stagger handled in CSS via --motion-delay) */
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if (en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { rootMargin: '0px 0px -12% 0px', threshold: 0.12 });
+    cards.forEach(function(c){ io.observe(c); });
+  } else {
+    cards.forEach(function(c){ c.classList.add('in'); });
+  }
+
+  /* Pointer parallax tilt — desktop fine-pointer only, never on touch or reduced-motion */
+  var fine = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  if (!fine || reduce) return;
+
+  cards.forEach(function(card){
+    var frame = card.querySelector('.art-frame');
+    if (!frame) return;
+    var max = parseFloat(card.getAttribute('data-tilt-max')) || 6;
+    var raf = null, rx = 0, ry = 0;
+
+    function apply(){ raf = null; frame.style.setProperty('--rx', rx.toFixed(2) + 'deg'); frame.style.setProperty('--ry', ry.toFixed(2) + 'deg'); }
+    function onMove(ev){
+      var r = frame.getBoundingClientRect();
+      var px = (ev.clientX - r.left) / r.width - 0.5;
+      var py = (ev.clientY - r.top) / r.height - 0.5;
+      ry = px * max;        /* horizontal cursor -> rotateY */
+      rx = -py * max;       /* vertical cursor -> rotateX (inverted for natural feel) */
+      if (!raf) raf = requestAnimationFrame(apply);
+    }
+    function onEnter(){ frame.classList.add('is-tilting'); frame.style.willChange = 'transform'; }
+    function onLeave(){
+      frame.classList.remove('is-tilting');
+      frame.style.setProperty('--rx', '0deg');
+      frame.style.setProperty('--ry', '0deg');
+      frame.style.willChange = '';
+    }
+    frame.addEventListener('pointerenter', onEnter);
+    frame.addEventListener('pointermove', onMove);
+    frame.addEventListener('pointerleave', onLeave);
+  });
+})();
 </script>
 
 </body>

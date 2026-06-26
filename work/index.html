@@ -344,7 +344,7 @@ section.dark .eyebrow { color: var(--accent); }
 .plate:nth-child(even) .plate-media { order: 2; }
 .plate:nth-child(even) .plate-text { order: 1; text-align: right; }
 
-.plate-media { position: relative; }
+.plate-media { position: relative; perspective: 1200px; }
 .plate-index {
   position: absolute; top: -0.46em; left: -0.14em; z-index: 0;
   font-size: clamp(78px, 12vw, 158px); font-weight: 300; line-height: 1;
@@ -356,15 +356,46 @@ section.dark .eyebrow { color: var(--accent); }
   position: relative; z-index: 1; display: block; width: 100%; padding: 0; border: 0;
   background: none; cursor: zoom-in; line-height: 0; overflow: hidden; border-radius: 2px;
   box-shadow: 0 18px 50px -28px rgba(45,68,52,0.5);
-  transition: transform .5s cubic-bezier(.2,.7,.2,1), box-shadow .5s ease;
+  transform: rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(var(--lift,0px)) scale(var(--hscale,1));
+  transition: transform .6s cubic-bezier(.2,.7,.2,1), box-shadow .6s ease;
+  --lift: 0px; --hscale: 1;
 }
+.plate-open.is-tilting { transition: transform .18s ease-out, box-shadow .6s ease; }
 .plate-open img {
   width: 100%; height: auto; display: block;
   max-height: clamp(440px, 66vh, 780px); object-fit: cover;
-  transition: transform .8s cubic-bezier(.2,.7,.2,1);
+  transform: scale(1.04); transform-origin: center;
 }
-.plate-open:hover { box-shadow: 0 28px 62px -26px rgba(45,68,52,0.62); }
-.plate-open:hover img { transform: scale(1.045); }
+.plate.in .plate-open img { animation: plateDrift var(--float-dur,16s) ease-in-out infinite; will-change: transform; }
+@keyframes plateDrift {
+  0%,100% { transform: translate3d(0,0,0) scale(1.04) rotate(0deg); }
+  50% { transform: translate3d(var(--float-x,0px), var(--float-y,-6px), 0) scale(var(--float-scale,1.06)) rotate(var(--float-rot,0deg)); }
+}
+/* gloss / wet-light sweep */
+.plate-open::after {
+  content:""; position:absolute; inset:0; z-index:2; pointer-events:none;
+  background: linear-gradient(var(--gloss-angle,115deg), transparent 32%, rgba(255,255,255,0.16) 47%, rgba(255,255,255,0.40) 50%, rgba(255,255,255,0.16) 53%, transparent 68%);
+  transform: translateX(-130%); mix-blend-mode: screen; opacity: .8;
+}
+@media (hover:hover) and (pointer:fine) {
+  .plate-open:hover {
+    --lift: -6px; --hscale: calc(1 + var(--hover-depth,0.02));
+    box-shadow: 0 30px 64px -26px rgba(45,68,52,0.62);
+  }
+  .plate-open::after { transition: transform 0s; }
+  .plate-open:hover::after { transform: translateX(130%); transition: transform 1.2s cubic-bezier(.25,.6,.2,1); }
+}
+@media (hover:none) {
+  .plate.in .plate-open::after { animation: plateGloss 1.8s cubic-bezier(.25,.6,.2,1) .3s 1 both; }
+}
+@keyframes plateGloss { 0%{transform:translateX(-130%);} 60%,100%{transform:translateX(130%);} }
+/* per-plate motion character (unique amplitude / direction / pace) */
+.plates .plate:nth-child(1){ --float-x:0px;  --float-y:-7px; --float-rot:0deg;   --float-scale:1.06;  --float-dur:16s; --gloss-angle:115deg; --hover-depth:.018; --tilt-max:5; }
+.plates .plate:nth-child(2){ --float-x:6px;  --float-y:-5px; --float-rot:.5deg;  --float-scale:1.055; --float-dur:18s; --gloss-angle:100deg; --hover-depth:.024; --tilt-max:7; }
+.plates .plate:nth-child(3){ --float-x:-5px; --float-y:-6px; --float-rot:-.4deg; --float-scale:1.07;  --float-dur:14s; --gloss-angle:125deg; --hover-depth:.020; --tilt-max:5; }
+.plates .plate:nth-child(4){ --float-x:4px;  --float-y:-7px; --float-rot:.35deg; --float-scale:1.06;  --float-dur:19s; --gloss-angle:108deg; --hover-depth:.026; --tilt-max:7; }
+.plates .plate:nth-child(5){ --float-x:-6px; --float-y:-5px; --float-rot:-.5deg; --float-scale:1.05;  --float-dur:15s; --gloss-angle:120deg; --hover-depth:.018; --tilt-max:5; }
+.plates .plate:nth-child(6){ --float-x:5px;  --float-y:-6px; --float-rot:.4deg;  --float-scale:1.075; --float-dur:17s; --gloss-angle:130deg; --hover-depth:.022; --tilt-max:6; }
 .plate-open:focus-visible { outline: 2px solid var(--brand-deep); outline-offset: 5px; }
 
 .plate-no { display: block; font-size: 11px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: var(--brand-deep); }
@@ -399,7 +430,9 @@ section.dark .eyebrow { color: var(--accent); }
 .js .reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   .js .reveal { opacity: 1; transform: none; transition: none; }
-  .plate-open, .plate-open img { transition: none; }
+  .plate-open { transition: none !important; }
+  .plate-open img { animation: none !important; transform: scale(1.04) !important; transition: none !important; }
+  .plate-open::after { display: none !important; }
 }
 
 /* LIGHTBOX */
@@ -1099,6 +1132,38 @@ function ezCookie(v){
     entries.forEach(function(en){ if (en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
   }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
   els.forEach(function(e){ io.observe(e); });
+})();
+
+/* Pointer parallax tilt on each plate image — desktop fine-pointer only */
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fine = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  if (!fine || reduce) return;
+  var plates = [].slice.call(document.querySelectorAll('.plate'));
+  plates.forEach(function(plate){
+    var frame = plate.querySelector('.plate-open');
+    if (!frame) return;
+    var max = parseFloat(getComputedStyle(plate).getPropertyValue('--tilt-max')) || 6;
+    var raf = null, rx = 0, ry = 0;
+    function apply(){ raf = null; frame.style.setProperty('--rx', rx.toFixed(2) + 'deg'); frame.style.setProperty('--ry', ry.toFixed(2) + 'deg'); }
+    function onMove(ev){
+      var r = frame.getBoundingClientRect();
+      var px = (ev.clientX - r.left) / r.width - 0.5;
+      var py = (ev.clientY - r.top) / r.height - 0.5;
+      ry = px * max; rx = -py * max;
+      if (!raf) raf = requestAnimationFrame(apply);
+    }
+    function onEnter(){ frame.classList.add('is-tilting'); frame.style.willChange = 'transform'; }
+    function onLeave(){
+      frame.classList.remove('is-tilting');
+      frame.style.setProperty('--rx', '0deg');
+      frame.style.setProperty('--ry', '0deg');
+      frame.style.willChange = '';
+    }
+    frame.addEventListener('pointerenter', onEnter);
+    frame.addEventListener('pointermove', onMove);
+    frame.addEventListener('pointerleave', onLeave);
+  });
 })();
 </script>
 

@@ -22,6 +22,9 @@
 <meta property="og:title" content="Elizabeth Zab Art — Original Pour Paintings in Akron, OH">
 <meta property="og:description" content="Original acrylic pour paintings by Elizabeth Zab. Studio inside Salon Lofts, Akron, OH. Walk in to see the work, or commission a custom palette.">
 <meta property="og:image" content="https://elizabethzab.art/assets/painting_1.jpg">
+<meta property="og:image:alt" content="Pink, green, and silver abstract acrylic pour painting by Elizabeth Zab, Akron Ohio">
+<meta property="og:image:width" content="430">
+<meta property="og:image:height" content="480">
 <meta property="og:url" content="https://elizabethzab.art/">
 <meta property="og:site_name" content="Elizabeth Zab Art">
 <meta property="og:locale" content="en_US">
@@ -29,6 +32,7 @@
 <meta name="twitter:title" content="Elizabeth Zab Art — Original Pour Paintings in Akron, OH">
 <meta name="twitter:description" content="Original acrylic pour paintings by Elizabeth Zab. Studio inside Salon Lofts, Akron, OH. Walk in to see the work, or commission a custom palette.">
 <meta name="twitter:image" content="https://elizabethzab.art/assets/painting_1.jpg">
+<meta name="twitter:image:alt" content="Pink, green, and silver abstract acrylic pour painting by Elizabeth Zab, Akron Ohio">
 <meta name="geo.region" content="US-OH">
 <meta name="geo.placename" content="Akron, Ohio">
 <meta name="geo.position" content="41.0814;-81.5190">
@@ -38,6 +42,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#2D4434">
+<link rel="preload" as="image" href="/assets/painting_1.jpg" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
@@ -698,9 +703,13 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
         "@type": "Offer",
         "itemOffered": {
           "@type": "Product",
-          "name": "Original abstract acrylic pour painting"
+          "name": "Original abstract acrylic pour painting",
+          "category": "Original fine art"
         },
-        "areaServed": "Akron, Ohio"
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "Akron, Ohio",
+        "url": "https://elizabethzab.art/work/"
       },
       "worksFor": {
         "@id": "https://elizabethzab.art/#org"
@@ -710,12 +719,21 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
       ]
     },
     {
-      "@type": "LocalBusiness",
+      "@type": ["ArtGallery", "LocalBusiness"],
       "@id": "https://elizabethzab.art/#org",
       "name": "Elizabeth Zab Art",
       "url": "https://elizabethzab.art/",
       "telephone": "+1-440-477-1972",
       "image": "https://elizabethzab.art/assets/painting_1.jpg",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://elizabethzab.art/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://www.instagram.com/elizabethzabartllc"
+      ],
       "founder": {
         "@id": "https://elizabethzab.art/#person"
       },

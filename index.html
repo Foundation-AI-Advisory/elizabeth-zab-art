@@ -561,13 +561,16 @@ section.dark .eyebrow { color: var(--accent); }
 }
 
 /* featured grids on home pages */
+/* Selected-work section: .container's "padding:0 32px" zeroes the section's
+   vertical rhythm, so restore it here (keeps captions off the next section). */
+.selected-work{ padding-top:clamp(64px,9vw,120px); padding-bottom:clamp(64px,9vw,120px); }
 .feat{ display:grid; gap:24px; }
 .feat-3{ grid-template-columns:repeat(3,1fr); }
 .feat-4{ grid-template-columns:repeat(4,1fr); }
 @media (max-width:880px){ .feat-3,.feat-4{ grid-template-columns:repeat(2,1fr); } }
 @media (max-width:560px){ .feat-3,.feat-4{ grid-template-columns:1fr; } }
-.feat .cap{ font-size:12px; color:var(--body); margin-top:12px; letter-spacing:0.04em; line-height:1.5; }
-.feat .cap .no{ color:var(--brand-deep); font-weight:500; margin-right:10px; letter-spacing:0.12em; text-transform:uppercase; }
+.feat .cap{ display:flex; flex-direction:column; gap:5px; margin-top:18px; padding-top:16px; border-top:1px solid rgba(46,42,41,0.12); font-size:13px; color:var(--body); letter-spacing:0.02em; line-height:1.5; }
+.feat .cap .no{ color:var(--brand-deep); font-weight:600; font-size:11px; letter-spacing:0.18em; text-transform:uppercase; }
 
 /* full-width gallery span + mobile collapse */
 .gw-w-12{ grid-column: span 12; }
@@ -802,7 +805,7 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
   <div class="hero-img" role="img" aria-label="Pink, green and silver abstract acrylic pour painting by Elizabeth Zab, Akron Ohio" style="background-image: linear-gradient(105deg, rgba(45,68,52,0.72) 0%, rgba(45,68,52,0.42) 45%, rgba(45,68,52,0.10) 75%, rgba(45,68,52,0.02) 100%), url('/assets/painting_1.jpg');"></div>
   <div class="hero-content">
     <span class="eyebrow" style="color: var(--accent-wash);">Abstract fluid art · Akron, Ohio</span>
-    <h1 style="margin-top: 16px;">Poured paintings,<br>made in Akron.</h1>
+    <h1 style="margin-top: 16px;">Walk In, See the Work,<br>Take One Home.</h1>
     <p class="lede">Fluid, layered abstract work — made by hand, and seen in person at my studio inside Salon Lofts.</p>
     <div class="cta-row">
       <a href="/work/" class="btn btn-brand">View the work</a>
@@ -812,7 +815,7 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
 </section>
 
 <!-- SELECTED WORK -->
-<section class="container">
+<section class="container selected-work">
   <div class="sec-head">
     <div>
       <span class="eyebrow">Selected work</span>

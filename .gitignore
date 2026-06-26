@@ -1,10 +1,4 @@
-# Vercel local link config (project/org ids) — not needed in the repo
-.vercel/
-**/.vercel/
-
-# macOS
+# macOS / editor junk
 .DS_Store
 **/.DS_Store
-
-# Node (in case any tooling is added later)
-node_modules/
+Thumbs.db

@@ -655,6 +655,22 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
   .final-cta-row .btn{ display:inline-flex; }
 }
 
+/* ---------- homepage redesign: section head + immersive process band ---------- */
+.sec-head{ display:flex; justify-content:space-between; align-items:flex-end; gap:20px 40px; flex-wrap:wrap; margin-bottom:44px; }
+.sec-head h2{ margin:0; max-width:540px; }
+.sec-head .view-all{ font-size:13px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--brand-deep); white-space:nowrap; padding-bottom:6px; }
+.sec-head .view-all:hover{ color:var(--ink); }
+.sec-head .view-all .arr{ display:inline-block; margin-left:6px; transition:transform .2s ease; }
+.sec-head .view-all:hover .arr{ transform:translateX(5px); }
+
+.process-band{ position:relative; min-height:54vh; display:flex; align-items:center; overflow:hidden; background:var(--ink); padding:0; }
+.process-band .band-img{ position:absolute; inset:0; background-size:cover; background-position:center; }
+.process-band .band-inner{ position:relative; z-index:2; max-width:760px; margin:0 auto; padding:72px 32px; text-align:center; color:var(--white); }
+.process-band .band-inner .eyebrow{ color:var(--accent-wash); }
+.process-band .band-inner h2{ color:var(--white); font-weight:300; margin-top:18px; }
+.process-band .band-inner p{ color:rgba(255,255,255,0.9); font-size:17px; line-height:1.7; margin:20px auto 0; max-width:540px; }
+@media (max-width:560px){ .sec-head{ margin-bottom:30px; } .process-band{ min-height:60vh; } }
+
 </style>
 <script type="application/ld+json">
 {
@@ -785,24 +801,56 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
 <section class="hero hero-c" style="padding:0;">
   <div class="hero-img" role="img" aria-label="Pink, green and silver abstract acrylic pour painting by Elizabeth Zab, Akron Ohio" style="background-image: linear-gradient(105deg, rgba(45,68,52,0.72) 0%, rgba(45,68,52,0.42) 45%, rgba(45,68,52,0.10) 75%, rgba(45,68,52,0.02) 100%), url('/assets/painting_1.jpg');"></div>
   <div class="hero-content">
-    <span class="eyebrow" style="color: var(--accent-wash);">Salon Lofts · Akron, OH</span>
-    <h1 style="margin-top: 16px;">Walk in. See the work. Take one home.</h1>
-    <p class="lede">Original pour paintings, made and shown at my studio inside Salon Lofts. Walk in from the main lobby during my studio hours.</p>
+    <span class="eyebrow" style="color: var(--accent-wash);">Abstract fluid art · Akron, Ohio</span>
+    <h1 style="margin-top: 16px;">Poured paintings,<br>made in Akron.</h1>
+    <p class="lede">Fluid, layered abstract work — made by hand, and seen in person at my studio inside Salon Lofts.</p>
     <div class="cta-row">
-      <a href="/studio/" class="btn btn-brand">Plan a visit</a>
-      <a href="tel:+14404771972" class="btn btn-ghost">Call (440) 477-1972</a>
+      <a href="/work/" class="btn btn-brand">View the work</a>
+      <a href="/studio/" class="btn btn-ghost">Visit the studio</a>
     </div>
   </div>
 </section>
 
-<div class="address-strip">
-  <strong>3987 Medina Rd, Studio 3, Akron, OH 44333</strong> &nbsp;·&nbsp; Inside Salon Lofts &nbsp;·&nbsp; Walk-ins welcome during my studio hours
-</div>
+<!-- SELECTED WORK -->
+<section class="container">
+  <div class="sec-head">
+    <div>
+      <span class="eyebrow">Selected work</span>
+      <h2 style="margin-top:12px;">A few recent pieces.</h2>
+    </div>
+    <a href="/work/" class="view-all">View all work <span class="arr">&rarr;</span></a>
+  </div>
+  <div class="feat feat-3">
+    <div>
+      <div class="media r-45" role="img" aria-label="Purple, silver, and yellow on a dark ground, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_6.jpg');"></div>
+      <div class="cap"><span class="no">No. 01</span>Purple, silver, and yellow on a dark ground</div>
+    </div>
+    <div>
+      <div class="media r-45" role="img" aria-label="Rust, slate blue, and cream pour, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_3_c.jpg');"></div>
+      <div class="cap"><span class="no">No. 02</span>Rust, slate blue, and cream pour</div>
+    </div>
+    <div>
+      <div class="media r-45" role="img" aria-label="Blue, black, and white pour, still wet, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_5_c.jpg');"></div>
+      <div class="cap"><span class="no">No. 03</span>Blue, black, and white pour, still wet</div>
+    </div>
+  </div>
+</section>
 
+<!-- PROCESS -->
+<section class="process-band">
+  <div class="band-img" role="img" aria-label="Blue, black and white abstract acrylic pour painting in progress in Elizabeth Zab's Akron studio" style="background-image: linear-gradient(180deg, rgba(45,68,52,0.62) 0%, rgba(45,68,52,0.48) 50%, rgba(45,68,52,0.68) 100%), url('/assets/painting_5.jpg');"></div>
+  <div class="band-inner">
+    <span class="eyebrow">Made by hand</span>
+    <h2>Poured, layered, guided by movement.</h2>
+    <p>Each piece is built through fluid color and the small surprises that happen when paint is allowed to move.</p>
+  </div>
+</section>
+
+<!-- VISIT THE STUDIO -->
 <section class="studio-pulled-up">
   <div class="container">
-    <span class="eyebrow">The studio</span>
-    <h2 style="margin: 10px 0 32px; max-width: 540px;">Walk in during my studio hours.</h2>
+    <span class="eyebrow">Visit the studio</span>
+    <h2 style="margin: 10px 0 32px; max-width: 560px;">See the work in person.</h2>
     <div class="studio-grid">
       <div class="media r-45" role="img" aria-label="Black, yellow and red abstract acrylic pour painting by Elizabeth Zab, on a wall in her Akron studio" style="background-image:url('/assets/painting_8.jpg');"></div>
       <div class="studio-card">
@@ -821,8 +869,9 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
     <dt>Reach me</dt>
     <dd><a href="tel:+14404771972">(440) 477-1972</a> &nbsp;·&nbsp; <a href="https://www.instagram.com/elizabethzabartllc?igsh=MXY0MHR5dWs1bWlk" class="ig-link" target="_blank" rel="noopener" aria-label="Instagram @elizabethzabartllc" title="Instagram (@elizabethzabartllc)"><svg class="ig-glyph" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24s3.668-.014 4.948-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a></dd>
   </dl>
-  <div class="card-actions" style="display:flex; gap:10px; flex-wrap:wrap; margin-top:4px;">
-    <a href="https://maps.google.com/?q=3987+Medina+Rd+Akron+OH+44333" target="_blank" rel="noopener" class="btn">Get directions</a>
+  <div class="card-actions" style="display:flex; gap:10px; flex-wrap:wrap; margin-top:8px;">
+    <a href="/studio/" class="btn" style="background:var(--accent);border-color:var(--accent);color:var(--ink);">Plan a visit</a>
+    <a href="https://maps.google.com/?q=3987+Medina+Rd+Akron+OH+44333" target="_blank" rel="noopener" class="btn btn-ghost">Get directions</a>
     <a href="https://www.instagram.com/elizabethzabartllc?igsh=MXY0MHR5dWs1bWlk" target="_blank" rel="noopener" class="btn btn-brand ig-btn"><svg class="ig-glyph" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24s3.668-.014 4.948-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg><span>Message me on Instagram</span></a>
   </div>
 </div>
@@ -830,32 +879,6 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
   </div>
 </section>
 
-<section class="container">
-  <span class="eyebrow">Recent work</span>
-  <h2 style="margin: 12px 0 48px; max-width: 540px;">A few recent pieces.</h2>
-  <div class="feat feat-3">
-    <div>
-      <div class="media r-45" role="img" aria-label="Purple, silver, and yellow on a dark ground, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_6.jpg');"></div>
-      <div class="cap"><span class="no">No. 01</span>Purple, silver, and yellow on a dark ground</div>
-    </div>
-    <div>
-      <div class="media r-45" role="img" aria-label="Rust, slate blue, and cream pour, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_3_c.jpg');"></div>
-      <div class="cap"><span class="no">No. 02</span>Rust, slate blue, and cream pour</div>
-    </div>
-    <div>
-      <div class="media r-45" role="img" aria-label="Blue, black, and white pour, still wet, acrylic pour painting by Elizabeth Zab" style="background-image:url('/assets/painting_5_c.jpg');"></div>
-      <div class="cap"><span class="no">No. 03</span>Blue, black, and white pour, still wet</div>
-    </div>
-  </div>
-  <div style="text-align:center; margin-top:48px;"><a href="/work/" class="btn btn-ghost">View all work</a></div>
-</section>
-
-<div class="final-cta-row">
-  <h2>Come see them in person.</h2>
-  <p>Walk in during my studio hours, or message me and I'll arrange a time at the studio.</p>
-  <a href="/studio/" class="btn btn-primary" style="background:var(--accent);border-color:var(--accent);color:var(--ink);">Plan a visit</a>
-  <span class="phone-line">or call <a href="tel:+14404771972">(440) 477-1972</a> &nbsp;·&nbsp; message me on <a href="https://www.instagram.com/elizabethzabartllc?igsh=MXY0MHR5dWs1bWlk" target="_blank" rel="noopener">Instagram</a></span>
-</div>
 
 <footer class="site-footer">
   <div class="row">

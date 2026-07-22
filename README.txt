@@ -67,3 +67,11 @@ NOTES
   Vercel build/deploy tooling have been removed.
 - To take the site OUT of search results again, set robots.txt to "Disallow: /"
   and change the robots/googlebot <meta> tags back to "noindex, nofollow".
+
+
+SEO REGRESSION CHECK
+--------------------
+Run `python3 scripts/seo-audit.py` (add `--live` after deploy) before and
+after any change that touches URLs, canonicals, sitemap.xml, or navigation.
+It verifies sitemap/page parity, canonical + og:url self-consistency, and
+that no internal link points through a redirect.

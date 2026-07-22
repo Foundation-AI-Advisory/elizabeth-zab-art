@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url><loc>https://elizabethzab.art/</loc><lastmod>2026-07-08</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://elizabethzab.art/</loc><lastmod>2026-07-21</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://elizabethzab.art/work/</loc><lastmod>2026-07-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
     <image:image><image:loc>https://elizabethzab.art/assets/painting_6.jpg</image:loc><image:title>Purple, silver, and yellow on a dark ground</image:title><image:caption>Purple, silver, and yellow on a dark ground, original acrylic pour painting by Elizabeth Zab, Akron OH</image:caption></image:image>
     <image:image><image:loc>https://elizabethzab.art/assets/painting_3_c.jpg</image:loc><image:title>Rust, slate blue, and cream pour</image:title><image:caption>Rust, slate blue, and cream pour, original acrylic pour painting by Elizabeth Zab, Akron OH</image:caption></image:image>
@@ -13,12 +13,9 @@
     <image:image><image:loc>https://elizabethzab.art/assets/painting_11.webp</image:loc><image:title>Wicked</image:title><image:caption>Wicked, a vibrant magenta, deep green, and white abstract floral acrylic pour painting by Elizabeth Zab, Akron OH</image:caption></image:image>
   </url>
   <url><loc>https://elizabethzab.art/story/</loc><lastmod>2026-06-25</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://elizabethzab.art/studio/</loc><lastmod>2026-07-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://elizabethzab.art/studio/</loc><lastmod>2026-07-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://elizabethzab.art/designers/</loc><lastmod>2026-07-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority>
     <image:image><image:loc>https://elizabethzab.art/assets/painting_12.webp</image:loc><image:title>An original pour painting staged in a living room</image:title><image:caption>A neutral abstract pour painting by Elizabeth Zab, staged above a sofa in a living room (visualization)</image:caption></image:image>
   </url>
-  <url><loc>https://elizabethzab.art/qa/</loc><lastmod>2026-07-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://elizabethzab.art/medina-art-in-the-park/</loc><lastmod>2026-07-08</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
-    <image:image><image:loc>https://elizabethzab.art/assets/painting_6.jpg</image:loc><image:title>Elizabeth Zab at Medina County Art in the Park</image:title><image:caption>Purple, silver, and yellow on a dark ground, original acrylic pour painting by Elizabeth Zab, shown at Medina County Art in the Park</image:caption></image:image>
-  </url>
+  <url><loc>https://elizabethzab.art/qa/</loc><lastmod>2026-07-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

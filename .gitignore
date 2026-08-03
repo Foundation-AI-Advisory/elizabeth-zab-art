@@ -2,3 +2,7 @@
 .DS_Store
 **/.DS_Store
 Thumbs.db
+
+# Client working files. This repo is public and deploys via GitHub Pages,
+# so unpublished source images and correspondence must never be committed.
+_incoming/

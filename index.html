@@ -868,11 +868,13 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
     </div>
     <a href="/work/" class="view-all">View all work <span class="arr">&rarr;</span></a>
   </div>
-  <!-- Placeholder imagery: painting_14/15/16.webp are encoded at the native resolution of
-       the client's compressed transit copies (640x370, 321x607, 529x706) against a
-       1440-1920px site standard. Upscaling was tested and rejected: at 2.3-2.8x it added no
-       detail (high-frequency energy fell 76%) and cost 2.6x the bytes for a sub-visible
-       on-screen delta. Swap these three for the client's originals when they arrive. -->
+  <!-- Placeholder imagery: painting_14/15/16.webp are upscaled to a 1600px long edge so
+       they sit in the same band as the rest of assets/ (1440-1920px). The upscale is
+       Lanczos3 in linear RGB, matching Squoosh's pipeline (verified against Squoosh's own
+       output to 0.627/255). It makes the files dimensionally consistent but adds no real
+       detail: the sources are the client's compressed transit copies (640x370, 321x607,
+       529x706) and interpolation cannot recover what compression removed. These stay
+       placeholders until the client's camera originals arrive. -->
   <div class="feat feat-3">
     <div class="art-card reveal" data-tilt-max="6" style="--motion-delay:0s; --float-x:0px; --float-y:-7px; --float-rot:0deg; --float-scale:1.06; --float-dur:15s; --gloss-angle:115deg; --hover-depth:.020;">
       <div class="art-frame">

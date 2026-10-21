@@ -1,0 +1,1856 @@
+{
+  "source_commit": "6e85ac6c2b80cd6b7972dec2fd121f09def39a82",
+  "source_url": "https://github.com/Foundation-AI-Advisory/elizabeth-zab-art",
+  "pages": {
+    "home": {
+      "title": "Home",
+      "path": "/",
+      "seo_title": "Elizabeth Zab Art — Original Pour Paintings in Akron, OH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow",
+        "googlebot": "index, follow",
+        "description": "Original acrylic pour paintings by Elizabeth Zab. Studio inside Salon Lofts, Akron, OH. Walk in to see the work, or commission a custom palette.",
+        "author": "Elizabeth Zab",
+        "og:type": "website",
+        "og:title": "Elizabeth Zab Art — Original Pour Paintings in Akron, OH",
+        "og:description": "Original acrylic pour paintings by Elizabeth Zab. Studio inside Salon Lofts, Akron, OH. Walk in to see the work, or commission a custom palette.",
+        "og:image": "https://elizabethzab.art/assets/painting_1.jpg",
+        "og:image:alt": "Pink, green, and silver abstract acrylic pour painting by Elizabeth Zab, Akron Ohio",
+        "og:image:width": "430",
+        "og:image:height": "480",
+        "og:url": "https://elizabethzab.art/",
+        "og:site_name": "Elizabeth Zab Art",
+        "og:locale": "en_US",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Elizabeth Zab Art — Original Pour Paintings in Akron, OH",
+        "twitter:description": "Original acrylic pour paintings by Elizabeth Zab. Studio inside Salon Lofts, Akron, OH. Walk in to see the work, or commission a custom palette.",
+        "twitter:image": "https://elizabethzab.art/assets/painting_1.jpg",
+        "twitter:image:alt": "Pink, green, and silver abstract acrylic pour painting by Elizabeth Zab, Akron Ohio",
+        "geo.region": "US-OH",
+        "geo.placename": "Akron, Ohio",
+        "geo.position": "41.0814;-81.5190",
+        "ICBM": "41.0814, -81.5190",
+        "theme-color": "#2D4434"
+      },
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Person",
+              "@id": "https://elizabethzab.art/#person",
+              "name": "Elizabeth Zab",
+              "alternateName": "Elizabeth Zab Art",
+              "url": "https://elizabethzab.art/",
+              "image": "https://elizabethzab.art/assets/painting_1.jpg",
+              "jobTitle": "Abstract Fluid Artist",
+              "description": "Abstract artist working primarily in acrylic pouring and fluid art techniques.",
+              "knowsAbout": [
+                "acrylic pour painting",
+                "fluid art",
+                "abstract art",
+                "art commissions"
+              ],
+              "makesOffer": {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Product",
+                  "name": "Original abstract acrylic pour painting",
+                  "category": "Original fine art"
+                },
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock",
+                "areaServed": "Akron, Ohio",
+                "url": "https://elizabethzab.art/work/"
+              },
+              "worksFor": {
+                "@id": "https://elizabethzab.art/#org"
+              },
+              "sameAs": [
+                "https://www.instagram.com/elizabethzabartllc"
+              ]
+            },
+            {
+              "@type": [
+                "ArtGallery",
+                "LocalBusiness"
+              ],
+              "@id": "https://elizabethzab.art/#org",
+              "name": "Elizabeth Zab Art",
+              "url": "https://elizabethzab.art/",
+              "telephone": "+1-440-477-1972",
+              "image": "https://elizabethzab.art/assets/painting_1.jpg",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://elizabethzab.art/icon-512.png",
+                "width": 512,
+                "height": 512
+              },
+              "sameAs": [
+                "https://www.instagram.com/elizabethzabartllc"
+              ],
+              "founder": {
+                "@id": "https://elizabethzab.art/#person"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "3987 Medina Rd, Studio 3",
+                "addressLocality": "Akron",
+                "addressRegion": "OH",
+                "postalCode": "44333",
+                "addressCountry": "US"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 41.0814,
+                "longitude": -81.519
+              },
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": "Wednesday",
+                  "opens": "15:00",
+                  "closes": "19:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": "Thursday",
+                  "opens": "12:00",
+                  "closes": "16:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": "Friday",
+                  "opens": "11:00",
+                  "closes": "14:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": "Saturday",
+                  "opens": "10:00",
+                  "closes": "14:00"
+                }
+              ],
+              "areaServed": [
+                "Akron",
+                "Cleveland",
+                "Medina",
+                "Hudson",
+                "Northeast Ohio"
+              ],
+              "priceRange": "$$"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://elizabethzab.art/#website",
+              "url": "https://elizabethzab.art/",
+              "name": "Elizabeth Zab Art",
+              "publisher": {
+                "@id": "https://elizabethzab.art/#org"
+              },
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      ],
+      "fields": {
+        "f001": {
+          "type": "attribute",
+          "label": "Image description — Pink, green and silver abstract acrylic pour painting b",
+          "default": "Pink, green and silver abstract acrylic pour painting by Elizabeth Zab, Akron Ohio"
+        },
+        "f002": {
+          "type": "image",
+          "label": "Background image — Pink, green and silver abstract acrylic pour painting by Elizabet",
+          "default": "/assets/painting_1.jpg"
+        },
+        "f003": {
+          "type": "text",
+          "label": "Text — Abstract fluid art · Akron, Ohio",
+          "default": "Abstract fluid art · Akron, Ohio"
+        },
+        "f004": {
+          "type": "text",
+          "label": "Home headline — Walk In,",
+          "default": "Walk In,"
+        },
+        "f005": {
+          "type": "text",
+          "label": "Home headline — See the Work,",
+          "default": "See the Work,"
+        },
+        "f006": {
+          "type": "text",
+          "label": "Home headline — Take One Home.",
+          "default": "Take One Home."
+        },
+        "f007": {
+          "type": "rich",
+          "label": "Text — Fluid, layered abstract work — made by hand, and seen in person a",
+          "default": "Fluid, layered abstract work — made by hand, and seen in person at my studio inside Salon Lofts."
+        },
+        "f008": {
+          "type": "text",
+          "label": "Link text — View the work",
+          "default": "View the work"
+        },
+        "f009": {
+          "type": "url",
+          "label": "Link destination — View the work",
+          "default": "/work/"
+        },
+        "f010": {
+          "type": "text",
+          "label": "Link text — Visit the studio",
+          "default": "Visit the studio"
+        },
+        "f011": {
+          "type": "url",
+          "label": "Link destination — Visit the studio",
+          "default": "/studio/"
+        },
+        "f012": {
+          "type": "text",
+          "label": "Text — Selected work",
+          "default": "Selected work"
+        },
+        "f013": {
+          "type": "text",
+          "label": "Heading — A few recent pieces.",
+          "default": "A few recent pieces."
+        },
+        "f014": {
+          "type": "rich",
+          "label": "Link text — View all work →",
+          "default": "View all work <span class=\"arr\">&rarr;</span>"
+        },
+        "f015": {
+          "type": "url",
+          "label": "Link destination — View all work →",
+          "default": "/work/"
+        },
+        "f016": {
+          "type": "attribute",
+          "label": "Image description — Canyon Rivers, a warm taupe, bronze, copper, and muted ",
+          "default": "Canyon Rivers, a warm taupe, bronze, copper, and muted gold abstract acrylic pour painting by Elizabeth Zab"
+        },
+        "f017": {
+          "type": "image",
+          "label": "Background image — Canyon Rivers, a warm taupe, bronze, copper, and muted gold abstr",
+          "default": "/assets/painting_14.webp"
+        },
+        "f018": {
+          "type": "rich",
+          "label": "Text — Canyon RiversSoft ribbons of warm taupe, bronze, copper, ivory, c",
+          "default": "<span class=\"no\">Canyon Rivers</span>Soft ribbons of warm taupe, bronze, copper, ivory, charcoal, and muted gold drift across a crisp white canvas, creating the appearance of natural stone shaped over time. Delicate lacing and translucent layers add depth and texture, while sweeping organic lines guide the eye through the composition. The balance of movement and open space evokes a sense of calm, quiet luxury, and the beauty of nature's imperfections."
+        },
+        "f019": {
+          "type": "attribute",
+          "label": "Image description — Noir, a black, white, smoky gray, and magenta abstract ",
+          "default": "Noir, a black, white, smoky gray, and magenta abstract acrylic pour painting by Elizabeth Zab"
+        },
+        "f020": {
+          "type": "image",
+          "label": "Background image — Noir, a black, white, smoky gray, and magenta abstract acrylic po",
+          "default": "/assets/painting_15.webp"
+        },
+        "f021": {
+          "type": "rich",
+          "label": "Text — NoirNoir is a bold abstract composition where deep black, soft wh",
+          "default": "<span class=\"no\">Noir</span>Noir is a bold abstract composition where deep black, soft white, and smoky gray flow together with unexpected bursts of vibrant magenta. Organic forms bloom and dissolve across the canvas, creating a striking balance between strength and softness. Layered textures, delicate lacing, and fluid movement evoke ink suspended in water or petals unfolding in shadow. Both dramatic and elegant, the painting invites viewers to discover new shapes and emotions with every look."
+        },
+        "f022": {
+          "type": "attribute",
+          "label": "Image description — Green Goddess, an emerald, teal, turquoise, and soft wh",
+          "default": "Green Goddess, an emerald, teal, turquoise, and soft white abstract acrylic pour painting by Elizabeth Zab"
+        },
+        "f023": {
+          "type": "image",
+          "label": "Background image — Green Goddess, an emerald, teal, turquoise, and soft white abstra",
+          "default": "/assets/painting_16.webp"
+        },
+        "f024": {
+          "type": "rich",
+          "label": "Text — Green GoddessGreen Goddess celebrates the vitality and quiet powe",
+          "default": "<span class=\"no\">Green Goddess</span>Green Goddess celebrates the vitality and quiet power of nature through flowing shades of emerald, teal, turquoise, and soft white. Organic forms unfurl across the canvas like blooming leaves, ocean currents, or lush botanical life, while intricate cellular textures add depth and movement. The balance of vibrant color and open white space creates a sense of renewal, serenity, and effortless grace, inviting the viewer to pause and reconnect with the natural world."
+        },
+        "f025": {
+          "type": "attribute",
+          "label": "Image description — Blue, black and white abstract acrylic pour painting in",
+          "default": "Blue, black and white abstract acrylic pour painting in progress in Elizabeth Zab's Akron studio"
+        },
+        "f026": {
+          "type": "image",
+          "label": "Background image — Blue, black and white abstract acrylic pour painting in progress ",
+          "default": "/assets/painting_5.jpg"
+        },
+        "f027": {
+          "type": "text",
+          "label": "Text — Made by hand",
+          "default": "Made by hand"
+        },
+        "f028": {
+          "type": "text",
+          "label": "Heading — Poured, layered, guided by movement.",
+          "default": "Poured, layered, guided by movement."
+        },
+        "f029": {
+          "type": "rich",
+          "label": "Text — Each piece is built through fluid color and the small surprises t",
+          "default": "Each piece is built through fluid color and the small surprises that happen when paint is allowed to move."
+        },
+        "f030": {
+          "type": "text",
+          "label": "Text — Visit the studio",
+          "default": "Visit the studio"
+        },
+        "f031": {
+          "type": "text",
+          "label": "Heading — See the work in person.",
+          "default": "See the work in person."
+        },
+        "f032": {
+          "type": "attribute",
+          "label": "Image description — Black, yellow and red abstract acrylic pour painting by",
+          "default": "Black, yellow and red abstract acrylic pour painting by Elizabeth Zab, on a wall in her Akron studio"
+        },
+        "f033": {
+          "type": "image",
+          "label": "Background image — Black, yellow and red abstract acrylic pour painting by Elizabeth",
+          "default": "/assets/painting_8.jpg"
+        },
+        "f034": {
+          "type": "text",
+          "label": "Text — Visit the studio",
+          "default": "Visit the studio"
+        },
+        "f035": {
+          "type": "text",
+          "label": "Heading — Salon Lofts, Akron.",
+          "default": "Salon Lofts, Akron."
+        },
+        "f036": {
+          "type": "rich",
+          "label": "Text — My studio is open to walk-ins during my studio hours. Walk in fro",
+          "default": "My studio is open to walk-ins during my studio hours. Walk in from the Salon Lofts main lobby, see the work in person, ask about a commission, or pick up a piece you've reserved."
+        },
+        "f037": {
+          "type": "rich",
+          "label": "Text — My studio hours are separate from the Salon Lofts lobby hours. Th",
+          "default": "My studio hours are separate from the Salon Lofts lobby hours. The times listed below are when you can usually find me in the studio."
+        },
+        "f038": {
+          "type": "rich",
+          "label": "Text — Would you like to visit outside these hours? Send me a message on",
+          "default": "Would you like to visit outside these hours? Send me a message on Instagram or call me at (440) 477-1972, and I'll be happy to arrange a convenient time. Complimentary pickup is available for reserved artwork."
+        },
+        "f039": {
+          "type": "text",
+          "label": "Text — Address",
+          "default": "Address"
+        },
+        "f040": {
+          "type": "text",
+          "label": "Text — Studio",
+          "default": "Studio"
+        },
+        "f041": {
+          "type": "text",
+          "label": "Text — Studio hours",
+          "default": "Studio hours"
+        },
+        "f042": {
+          "type": "text",
+          "label": "Text — Reach me",
+          "default": "Reach me"
+        },
+        "f043": {
+          "type": "text",
+          "label": "Link text — (440) 477-1972",
+          "default": "(440) 477-1972"
+        },
+        "f044": {
+          "type": "text",
+          "label": "Link text — Plan a visit",
+          "default": "Plan a visit"
+        },
+        "f045": {
+          "type": "url",
+          "label": "Link destination — Plan a visit",
+          "default": "/studio/"
+        },
+        "f046": {
+          "type": "text",
+          "label": "Link text — Get directions",
+          "default": "Get directions"
+        },
+        "f047": {
+          "type": "url",
+          "label": "Link destination — Get directions",
+          "default": "https://maps.google.com/?q=3987+Medina+Rd+Akron+OH+44333"
+        }
+      },
+      "gallery": [],
+      "content": "\n\n\n\n<section class=\"hero hero-c\" style=\"padding:0;\">\n  <div class=\"hero-img\" role=\"img\" aria-label=\"Pink, green and silver abstract acrylic pour painting by Elizabeth Zab, Akron Ohio\" style=\"background-image: linear-gradient(105deg, rgba(45,68,52,0.72) 0%, rgba(45,68,52,0.42) 45%, rgba(45,68,52,0.10) 75%, rgba(45,68,52,0.02) 100%), url('/assets/painting_1.jpg');\"></div>\n  <div class=\"hero-content\">\n    <span class=\"eyebrow\" style=\"color: var(--accent-wash);\">Abstract fluid art · Akron, Ohio</span>\n    <h1 class=\"hero-tagline\" style=\"margin-top: 16px;\"><span>Walk In,</span> <span>See the Work,</span> <span class=\"ht-last\">Take One Home.</span></h1>\n    <p class=\"lede\">Fluid, layered abstract work — made by hand, and seen in person at my studio inside Salon Lofts.</p>\n    <div class=\"cta-row\">\n      <a href=\"/work/\" class=\"btn btn-brand\">View the work</a>\n      <a href=\"/studio/\" class=\"btn btn-ghost\">Visit the studio</a>\n    </div>\n  </div>\n</section>\n\n<!-- SELECTED WORK -->\n<section class=\"container selected-work\">\n  <div class=\"sec-head\">\n    <div>\n      <span class=\"eyebrow\">Selected work</span>\n      <h2 style=\"margin-top:12px;\">A few recent pieces.</h2>\n    </div>\n    <a href=\"/work/\" class=\"view-all\">View all work <span class=\"arr\">&rarr;</span></a>\n  </div>\n  <!-- Placeholder imagery: painting_14/15/16.webp are upscaled to a 1600px long edge so\n       they sit in the same band as the rest of assets/ (1440-1920px). The upscale is\n       Lanczos3 in linear RGB, matching Squoosh's pipeline (verified against Squoosh's own\n       output to 0.627/255). It makes the files dimensionally consistent but adds no real\n       detail: the sources are the client's compressed transit copies (640x370, 321x607,\n       529x706) and interpolation cannot recover what compression removed. These stay\n       placeholders until the client's camera originals arrive. -->\n  <div class=\"feat feat-3\">\n    <div class=\"art-card reveal\" data-tilt-max=\"6\" style=\"--motion-delay:0s; --float-x:0px; --float-y:-7px; --float-rot:0deg; --float-scale:1.06; --float-dur:15s; --gloss-angle:115deg; --hover-depth:.020;\">\n      <div class=\"art-frame\">\n        <div class=\"art-media media r-45\" role=\"img\" aria-label=\"Canyon Rivers, a warm taupe, bronze, copper, and muted gold abstract acrylic pour painting by Elizabeth Zab\" style=\"background-image:url('/assets/painting_14.webp');\"></div>\n      </div>\n      <div class=\"cap\"><span class=\"no\">Canyon Rivers</span>Soft ribbons of warm taupe, bronze, copper, ivory, charcoal, and muted gold drift across a crisp white canvas, creating the appearance of natural stone shaped over time. Delicate lacing and translucent layers add depth and texture, while sweeping organic lines guide the eye through the composition. The balance of movement and open space evokes a sense of calm, quiet luxury, and the beauty of nature's imperfections.</div>\n    </div>\n    <div class=\"art-card reveal\" data-tilt-max=\"9\" style=\"--motion-delay:.12s; --float-x:6px; --float-y:-5px; --float-rot:.5deg; --float-scale:1.055; --float-dur:17s; --gloss-angle:100deg; --hover-depth:.028;\">\n      <div class=\"art-frame\">\n        <div class=\"art-media media r-45\" role=\"img\" aria-label=\"Noir, a black, white, smoky gray, and magenta abstract acrylic pour painting by Elizabeth Zab\" style=\"background-image:url('/assets/painting_15.webp'); background-position:50% 18%;\"></div>\n      </div>\n      <div class=\"cap\"><span class=\"no\">Noir</span>Noir is a bold abstract composition where deep black, soft white, and smoky gray flow together with unexpected bursts of vibrant magenta. Organic forms bloom and dissolve across the canvas, creating a striking balance between strength and softness. Layered textures, delicate lacing, and fluid movement evoke ink suspended in water or petals unfolding in shadow. Both dramatic and elegant, the painting invites viewers to discover new shapes and emotions with every look.</div>\n    </div>\n    <div class=\"art-card reveal\" data-tilt-max=\"6\" style=\"--motion-delay:.24s; --float-x:-4px; --float-y:-6px; --float-rot:-.4deg; --float-scale:1.075; --float-dur:13s; --gloss-angle:125deg; --hover-depth:.022;\">\n      <div class=\"art-frame\">\n        <div class=\"art-media media r-45\" role=\"img\" aria-label=\"Green Goddess, an emerald, teal, turquoise, and soft white abstract acrylic pour painting by Elizabeth Zab\" style=\"background-image:url('/assets/painting_16.webp');\"></div>\n      </div>\n      <div class=\"cap\"><span class=\"no\">Green Goddess</span>Green Goddess celebrates the vitality and quiet power of nature through flowing shades of emerald, teal, turquoise, and soft white. Organic forms unfurl across the canvas like blooming leaves, ocean currents, or lush botanical life, while intricate cellular textures add depth and movement. The balance of vibrant color and open white space creates a sense of renewal, serenity, and effortless grace, inviting the viewer to pause and reconnect with the natural world.</div>\n    </div>\n  </div>\n</section>\n\n<!-- PROCESS -->\n<section class=\"process-band\">\n  <div class=\"band-img\" role=\"img\" aria-label=\"Blue, black and white abstract acrylic pour painting in progress in Elizabeth Zab's Akron studio\" style=\"background-image: linear-gradient(180deg, rgba(45,68,52,0.62) 0%, rgba(45,68,52,0.48) 50%, rgba(45,68,52,0.68) 100%), url('/assets/painting_5.jpg');\"></div>\n  <div class=\"band-inner\">\n    <span class=\"eyebrow\">Made by hand</span>\n    <h2>Poured, layered, guided by movement.</h2>\n    <p>Each piece is built through fluid color and the small surprises that happen when paint is allowed to move.</p>\n  </div>\n</section>\n\n<!-- VISIT THE STUDIO -->\n<section class=\"studio-pulled-up\">\n  <div class=\"container\">\n    <span class=\"eyebrow\">Visit the studio</span>\n    <h2 style=\"margin: 10px 0 32px; max-width: 560px;\">See the work in person.</h2>\n    <div class=\"studio-grid\">\n      <div class=\"media r-45\" role=\"img\" aria-label=\"Black, yellow and red abstract acrylic pour painting by Elizabeth Zab, on a wall in her Akron studio\" style=\"background-image:url('/assets/painting_8.jpg');\"></div>\n      <div class=\"studio-card\">\n  <span class=\"eyebrow\">Visit the studio</span>\n  <h3>Salon Lofts, Akron.</h3>\n  <p>My studio is open to walk-ins during my studio hours. Walk in from the Salon Lofts main lobby, see the work in person, ask about a commission, or pick up a piece you've reserved.</p>\n  <p>My studio hours are separate from the Salon Lofts lobby hours. The times listed below are when you can usually find me in the studio.</p>\n  <p>Would you like to visit outside these hours? Send me a message on Instagram or call me at (440) 477-1972, and I'll be happy to arrange a convenient time. Complimentary pickup is available for reserved artwork.</p>\n  <dl>\n    <dt>Address</dt>\n    <dd>3987 Medina Rd, Studio 3<br>Akron, OH 44333</dd>\n    <dt>Studio</dt>\n    <dd>Inside Salon Lofts, Studio 3 · walk in from the main lobby</dd>\n    <dt>Studio hours</dt>\n    <dd>Wed 3–7 · Thu 12–4 · Fri 11–2 · Sat 10–2<br>Closed Sun, Mon &amp; Tue</dd>\n    <dt>Reach me</dt>\n    <dd><a href=\"tel:+14404771972\">(440) 477-1972</a> &nbsp;·&nbsp; <a href=\"https://www.instagram.com/elizabethzabartllc?igsh=MXY0MHR5dWs1bWlk\" class=\"ig-link\" target=\"_blank\" rel=\"noopener\" aria-label=\"Instagram @elizabethzabartllc\" title=\"Instagram (@elizabethzabartllc)\"><svg class=\"ig-glyph\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24s3.668-.014 4.948-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z\"/></svg></a></dd>\n  </dl>\n  <div class=\"card-actions\" style=\"display:flex; gap:10px; flex-wrap:wrap; margin-top:8px;\">\n    <a href=\"/studio/\" class=\"btn\" style=\"background:var(--accent);border-color:var(--accent);color:var(--ink);\">Plan a visit</a>\n    <a href=\"https://maps.google.com/?q=3987+Medina+Rd+Akron+OH+44333\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-ghost\">Get directions</a>\n    <a href=\"https://www.instagram.com/elizabethzabartllc?igsh=MXY0MHR5dWs1bWlk\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-brand ig-btn\"><svg class=\"ig-glyph\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24s3.668-.014 4.948-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z\"/></svg><span>Message me on Instagram</span></a>\n  </div>\n</div>\n    </div>\n  </div>\n</section>\n\n\n\n\n\n\n\n\n"
+    },
+    "work": {
+      "title": "Work",
+      "path": "/work/",
+      "seo_title": "The work — Elizabeth Zab Art · Akron, OH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow",
+        "googlebot": "index, follow",
+        "description": "A selection of recent original pour paintings by Elizabeth Zab — color, movement, organic flow. Made in Akron, available at the studio.",
+        "author": "Elizabeth Zab",
+        "og:type": "website",
+        "og:title": "The work · Elizabeth Zab Art",
+        "og:description": "A selection of recent original pour paintings by Elizabeth Zab — color, movement, organic flow. Made in Akron, available at the studio.",
+        "og:image": "https://elizabethzab.art/assets/painting_6.jpg",
+        "og:image:alt": "Purple, silver, and yellow on a dark ground — original acrylic pour painting by Elizabeth Zab",
+        "og:image:width": "1440",
+        "og:image:height": "1800",
+        "og:url": "https://elizabethzab.art/work/",
+        "og:site_name": "Elizabeth Zab Art",
+        "og:locale": "en_US",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "The work · Elizabeth Zab Art",
+        "twitter:description": "A selection of recent original pour paintings by Elizabeth Zab — color, movement, organic flow. Made in Akron, available at the studio.",
+        "twitter:image": "https://elizabethzab.art/assets/painting_6.jpg",
+        "twitter:image:alt": "Purple, silver, and yellow on a dark ground — original acrylic pour painting by Elizabeth Zab",
+        "geo.region": "US-OH",
+        "geo.placename": "Akron, Ohio",
+        "geo.position": "41.0814;-81.5190",
+        "ICBM": "41.0814, -81.5190",
+        "theme-color": "#2D4434"
+      },
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://elizabethzab.art/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "The work",
+                  "item": "https://elizabethzab.art/work/"
+                }
+              ]
+            },
+            {
+              "@type": "CollectionPage",
+              "@id": "https://elizabethzab.art/work/#collection",
+              "url": "https://elizabethzab.art/work/",
+              "name": "The work — Elizabeth Zab Art",
+              "description": "A selection of recent original acrylic pour paintings by Elizabeth Zab, made in Akron, Ohio.",
+              "isPartOf": {
+                "@id": "https://elizabethzab.art/#website"
+              },
+              "about": {
+                "@id": "https://elizabethzab.art/#person"
+              },
+              "mainEntity": {
+                "@type": "ItemList",
+                "numberOfItems": 9,
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                      "@type": "VisualArtwork",
+                      "name": "Purple, silver, and yellow on a dark ground",
+                      "description": "Original acrylic pour painting by Elizabeth Zab, Akron OH.",
+                      "image": "https://elizabethzab.art/assets/painting_6.jpg",
+                      "artform": "Painting",
+                      "artMedium": "Acrylic pour on canvas",
+                      "artworkSurface": "Canvas",
+                      "creator": {
+                        "@id": "https://elizabethzab.art/#person",
+                        "name": "Elizabeth Zab"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                      "@type": "VisualArtwork",
+                      "name": "Rust, slate blue, and cream pour",
+                      "description": "Original acrylic pour painting by Elizabeth Zab, Akron OH.",
+                      "image": "https://elizabethzab.art/assets/painting_3_c.jpg",
+                      "artform": "Painting",
+                      "artMedium": "Acrylic pour on canvas",
+                      "artworkSurface": "Canvas",
+                      "creator": {
+                        "@id": "https://elizabethzab.art/#person",
+                        "name": "Elizabeth Zab"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                      "@type": "VisualArtwork",
+                      "name": "Black-and-white charcoal pour on canvas",
+                      "description": "Original acrylic pour painting by Elizabeth Zab, Akron OH.",
+                      "image": "https://elizabethzab.art/assets/painting_7_c.jpg",
+                      "artform": "Painting",
+                      "artMedium": "Acrylic pour on canvas",
+                      "artworkSurface": "Canvas",
+                      "creator": {
+                        "@id": "https://elizabethzab.art/#person",
+                        "name": "Elizabeth Zab"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "item": {
+                      "@type": "VisualArtwork",
+                      "name": "Black, yellow, and red, a bold vertical pour",
+                      "description": "Original acrylic pour painting by Elizabeth Zab, Akron OH.",
+                      "image": "https://elizabethzab.art/assets/painting_8.jpg",
+                      "artform": "Painting",
+                      "artMedium": "Acrylic pour on canvas",
+                      "artworkSurface": "Canvas",
+                      "creator": {
+                        "@id": "https://elizabethzab.art/#person",
+                        "name": "Elizabeth Zab"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "item": {
+                      "@type": "VisualArtwork",
+                      "name": "Pink, green, and silver pour",
+                      "description": "Original acrylic pour painting by Elizabeth Zab, Akron OH.",
+                      "image": "https://elizabethzab.art/assets/painting_1.jpg",
+                      "artform": "Painting",
+                      "artMedium": "Acrylic pour on canvas",
+                      "artworkSurface": "Canvas",
+                      "creator": {
+                        "@id": "https://elizabethzab.art/#person",
+                        "name": "Elizabeth Zab"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 6,
+                    "item": {
+                      "@type": "VisualArtwork",
+                      "name": "Blue, black, and white pour, still wet",
+                      "description": "Original acrylic pour painting by Elizabeth Zab, Akron OH.",
+                      "image": "https://elizabethzab.art/assets/painting_5_c.jpg",
+                      "artform": "Painting",
+                      "artMedium": "Acrylic pour on canvas",
+                      "artworkSurface": "Canvas",
+                      "creator": {
+                        "@id": "https://elizabethzab.art/#person",
+                        "name": "Elizabeth Zab"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 7,
+                    "item": {
+                      "@type": "VisualArtwork",
+                      "name": "Canyon Rivers",
+                      "description": "Original acrylic pour painting by Elizabeth Zab, Akron OH. A neutral abstract in ivory, taupe, warm gold, charcoal, and soft gray. 36 x 48 in.",
+                      "image": "https://elizabethzab.art/assets/painting_9.webp",
+                      "artform": "Painting",
+                      "artMedium": "Acrylic pour on canvas",
+                      "artworkSurface": "Canvas",
+                      "creator": {
+                        "@id": "https://elizabethzab.art/#person",
+                        "name": "Elizabeth Zab"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 8,
+                    "item": {
+                      "@type": "VisualArtwork",
+                      "name": "Ocean Path",
+                      "description": "Original acrylic pour painting by Elizabeth Zab, Akron OH. An airy abstract in turquoise, aqua, soft blue, and metallic beige. 24 x 36 in.",
+                      "image": "https://elizabethzab.art/assets/painting_10.webp",
+                      "artform": "Painting",
+                      "artMedium": "Acrylic pour on canvas",
+                      "artworkSurface": "Canvas",
+                      "creator": {
+                        "@id": "https://elizabethzab.art/#person",
+                        "name": "Elizabeth Zab"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 9,
+                    "item": {
+                      "@type": "VisualArtwork",
+                      "name": "Wicked",
+                      "description": "Original acrylic pour painting by Elizabeth Zab, Akron OH. A vibrant abstract floral in rich magenta, deep green, soft gray, and white. 16 x 20 in.",
+                      "image": "https://elizabethzab.art/assets/painting_11.webp",
+                      "artform": "Painting",
+                      "artMedium": "Acrylic pour on canvas",
+                      "artworkSurface": "Canvas",
+                      "creator": {
+                        "@id": "https://elizabethzab.art/#person",
+                        "name": "Elizabeth Zab"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "fields": {
+        "f001": {
+          "type": "text",
+          "label": "Text — Recent work",
+          "default": "Recent work"
+        },
+        "f002": {
+          "type": "text",
+          "label": "Heading — The work.",
+          "default": "The work."
+        },
+        "f003": {
+          "type": "rich",
+          "label": "Text — Recent originals, poured and shaped by air, left to find their ow",
+          "default": "Recent originals, poured and shaped by air, left to find their own edges. Tap any piece to see it up close."
+        },
+        "f004": {
+          "type": "text",
+          "label": "Heading — Come see them in person.",
+          "default": "Come see them in person."
+        },
+        "f005": {
+          "type": "rich",
+          "label": "Text — Every original is signed, dated, and shipped with a Certificate o",
+          "default": "Every original is signed, dated, and shipped with a Certificate of Authenticity."
+        },
+        "f006": {
+          "type": "text",
+          "label": "Link text — Visit the studio",
+          "default": "Visit the studio"
+        },
+        "f007": {
+          "type": "url",
+          "label": "Link destination — Visit the studio",
+          "default": "/studio/"
+        },
+        "f008": {
+          "type": "image",
+          "label": "Image — ",
+          "default": ""
+        },
+        "f009": {
+          "type": "attribute",
+          "label": "Image description — ",
+          "default": ""
+        }
+      },
+      "gallery": [
+        {
+          "title": "Purple, silver, and yellow on a dark ground",
+          "medium": "Acrylic pour on canvas · Original",
+          "description": "A pale bloom opening across a dark field — silver veins gathering toward a violet center.",
+          "image": "/assets/painting_6.jpg",
+          "alt": "Purple, silver, and yellow on a dark ground, original acrylic pour painting by Elizabeth Zab",
+          "width": "1440",
+          "height": "1800"
+        },
+        {
+          "title": "Rust, slate blue, and cream pour",
+          "medium": "Acrylic pour on canvas · Original",
+          "description": "Warm rust easing into cool slate, every edge feathered soft as weather.",
+          "image": "/assets/painting_3_c.jpg",
+          "alt": "Rust, slate blue, and cream pour, original acrylic pour painting by Elizabeth Zab",
+          "width": "680",
+          "height": "1530"
+        },
+        {
+          "title": "Black-and-white charcoal pour on canvas",
+          "medium": "Acrylic pour on canvas · Original",
+          "description": "Pure tonal drama — charcoal ribbons unfurling over bright, open canvas.",
+          "image": "/assets/painting_7_c.jpg",
+          "alt": "Black-and-white charcoal pour on canvas, original acrylic pour painting by Elizabeth Zab",
+          "width": "1180",
+          "height": "1185"
+        },
+        {
+          "title": "Black, yellow, and red, a bold vertical pour",
+          "medium": "Acrylic pour on canvas · Original",
+          "description": "A vertical surge of gold and crimson, cells pooling out of the dark.",
+          "image": "/assets/painting_8.jpg",
+          "alt": "Black, yellow, and red, a bold vertical pour, original acrylic pour painting by Elizabeth Zab",
+          "width": "1440",
+          "height": "1440"
+        },
+        {
+          "title": "Pink, green, and silver pour",
+          "medium": "Acrylic pour on canvas · Original",
+          "description": "Magenta and moss caught mid-motion, soft as petals just settling.",
+          "image": "/assets/painting_1.jpg",
+          "alt": "Pink, green, and silver pour, original acrylic pour painting by Elizabeth Zab",
+          "width": "430",
+          "height": "480"
+        },
+        {
+          "title": "Blue, black, and white pour, still wet",
+          "medium": "Acrylic pour on canvas · Original",
+          "description": "Deep blue breaking into lacework — caught while the paint was still wet.",
+          "image": "/assets/painting_5_c.jpg",
+          "alt": "Blue, black, and white pour, still wet, original acrylic pour painting by Elizabeth Zab",
+          "width": "820",
+          "height": "1310"
+        },
+        {
+          "title": "Canyon Rivers",
+          "medium": "Acrylic pour on canvas · Original · 36 × 48 in",
+          "description": "A sophisticated neutral abstract featuring ivory, taupe, warm gold, charcoal, and soft gray. Flowing shapes move across the canvas like smoke, feathers, stone formations, or windswept fabric. The large areas of negative space balance the darker, dramatic forms, creating an elegant, earthy, and slightly mysterious mood.",
+          "image": "/assets/painting_9.webp",
+          "alt": "Canyon Rivers, a neutral ivory, taupe, gold, and charcoal abstract acrylic pour painting by Elizabeth Zab",
+          "width": "780",
+          "height": "572"
+        },
+        {
+          "title": "Ocean Path",
+          "medium": "Acrylic pour on canvas · Original · 24 × 36 in",
+          "description": "An airy abstract composition in turquoise, aqua, soft blue, gray, and touches of warm metallic beige. Organic forms drift in from the edges, resembling ocean currents, coral, or delicate sea creatures. Fine cells and lace-like details add texture, while the open white space gives the painting a calm, weightless feeling.",
+          "image": "/assets/painting_10.webp",
+          "alt": "Ocean Path, an airy turquoise, aqua, and soft blue abstract acrylic pour painting by Elizabeth Zab",
+          "width": "936",
+          "height": "738"
+        },
+        {
+          "title": "Wicked",
+          "medium": "Acrylic pour on canvas · Original · 16 × 20 in",
+          "description": "A vibrant abstract floral composition in rich magenta, deep green, soft gray, and white. Sweeping forms resemble oversized petals unfolding across the canvas, with translucent layers, delicate lacing, and darker accents adding depth. The open white background gives the painting a graceful, airy quality while the bold color creates energy and drama.",
+          "image": "/assets/painting_11.webp",
+          "alt": "Wicked, a vibrant magenta, deep green, and white abstract floral acrylic pour painting by Elizabeth Zab",
+          "width": "936",
+          "height": "1112"
+        }
+      ],
+      "content": "\n\n\n\n<div class=\"page-head\">\n  <div class=\"container\">\n    <span class=\"eyebrow\">Recent work</span>\n    <h1>The work.</h1>\n    <p class=\"sub\">Recent originals, poured and shaped by air, left to find their own edges. Tap any piece to see it up close.</p>\n  </div>\n</div>\n\n<section class=\"container plates-wrap\">\n  <div class=\"plates\">{{ez:gallery}}</div>\n</section>\n\n<div class=\"band\">\n  <h2>Come see them in person.</h2>\n  <p>Every original is signed, dated, and shipped with a Certificate of Authenticity.</p>\n  <a href=\"/studio/\" class=\"btn\">Visit the studio</a>\n</div>\n\n<div class=\"lb\" id=\"lightbox\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Artwork viewer\" aria-hidden=\"true\">\n  <div class=\"lb-backdrop\" data-close></div>\n  <div class=\"lb-stage\">\n    <img class=\"lb-img\" src=\"\" alt=\"\">\n    <p class=\"lb-cap\"></p>\n    <button type=\"button\" class=\"lb-close\" data-close aria-label=\"Close viewer\">&times;</button>\n    <button type=\"button\" class=\"lb-nav lb-prev\" aria-label=\"Previous piece\">&#8249;</button>\n    <button type=\"button\" class=\"lb-nav lb-next\" aria-label=\"Next piece\">&#8250;</button>\n    <div class=\"lb-count\" aria-hidden=\"true\"></div>\n  </div>\n</div>\n\n\n\n\n\n\n\n\n"
+    },
+    "story": {
+      "title": "Story",
+      "path": "/story/",
+      "seo_title": "A painting is a kind of dance — Elizabeth Zab Art · Akron, OH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow",
+        "googlebot": "index, follow",
+        "description": "How a pour painting is made: poured palettes, warm air from a hairdryer, and a long slow dry. Elizabeth Zab's process, from her Salon Lofts studio.",
+        "author": "Elizabeth Zab",
+        "og:type": "article",
+        "og:title": "A painting is a kind of dance · Elizabeth Zab Art",
+        "og:description": "How a pour painting is made: poured palettes, warm air from a hairdryer, and a long slow dry. Elizabeth Zab's process, from her Salon Lofts studio.",
+        "og:image": "https://elizabethzab.art/assets/painting_5_c.jpg",
+        "og:image:alt": "Blue, black, and white acrylic pour painting by Elizabeth Zab, Akron Ohio",
+        "og:image:width": "820",
+        "og:image:height": "1310",
+        "og:url": "https://elizabethzab.art/story/",
+        "og:site_name": "Elizabeth Zab Art",
+        "og:locale": "en_US",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "A painting is a kind of dance · Elizabeth Zab Art",
+        "twitter:description": "How a pour painting is made: poured palettes, warm air from a hairdryer, and a long slow dry. Elizabeth Zab's process, from her Salon Lofts studio.",
+        "twitter:image": "https://elizabethzab.art/assets/painting_5_c.jpg",
+        "twitter:image:alt": "Blue, black, and white acrylic pour painting by Elizabeth Zab, Akron Ohio",
+        "geo.region": "US-OH",
+        "geo.placename": "Akron, Ohio",
+        "geo.position": "41.0814;-81.5190",
+        "ICBM": "41.0814, -81.5190",
+        "theme-color": "#2D4434"
+      },
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          "name": "How an acrylic pour painting is made",
+          "description": "Elizabeth Zab's fluid-art process: a poured palette, shaped by tilt and warm air, then a long slow dry.",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "name": "Pour the palette",
+              "text": "Mixed acrylic paint is poured directly onto the canvas in a chosen palette."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "Shape with tilt and movement",
+              "text": "The canvas is tilted so gravity and movement carry the paint into flowing, organic shapes."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "Open the cells with warm air",
+              "text": "Warm air from a hairdryer opens cells in the paint and shapes how the pigments settle."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "Slow dry and finish by hand",
+              "text": "The piece dries slowly, then is signed and dated by hand on the back of the canvas."
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://elizabethzab.art/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Story",
+                  "item": "https://elizabethzab.art/story/"
+                }
+              ]
+            },
+            {
+              "@type": "Article",
+              "headline": "A painting is a kind of dance",
+              "description": "How a pour painting is made: poured palettes, warm air from a hairdryer, and a long slow dry. Elizabeth Zab's process, from her Salon Lofts studio.",
+              "image": "https://elizabethzab.art/assets/painting_5_c.jpg",
+              "author": {
+                "@id": "https://elizabethzab.art/#person",
+                "name": "Elizabeth Zab"
+              },
+              "publisher": {
+                "@id": "https://elizabethzab.art/#org",
+                "name": "Elizabeth Zab Art"
+              },
+              "datePublished": "2026-06-25",
+              "dateModified": "2026-06-25",
+              "mainEntityOfPage": "https://elizabethzab.art/story/",
+              "about": [
+                "acrylic pour painting",
+                "fluid art",
+                "abstract art"
+              ]
+            }
+          ]
+        }
+      ],
+      "fields": {
+        "f001": {
+          "type": "text",
+          "label": "Text — The story",
+          "default": "The story"
+        },
+        "f002": {
+          "type": "text",
+          "label": "Heading — A painting is a kind of dance.",
+          "default": "A painting is a kind of dance."
+        },
+        "f003": {
+          "type": "rich",
+          "label": "Text — I'm Elizabeth, an abstract artist working primarily in acrylic po",
+          "default": "I'm Elizabeth, an abstract artist working primarily in acrylic pouring and fluid art techniques, from a studio inside Salon Lofts in Akron. My work is guided by a deep connection to color, movement, and the organic flow of paint as it finds its own shape on canvas."
+        },
+        "f004": {
+          "type": "text",
+          "label": "Text — \"The hairdryer is part of the process. It moves the paint, opens ",
+          "default": "\"The hairdryer is part of the process. It moves the paint, opens the cells, and gives each piece its breath.\""
+        },
+        "f005": {
+          "type": "rich",
+          "label": "Text — I approach painting as a kind of dance. Every piece begins with a",
+          "default": "I approach painting as a kind of dance. Every piece begins with a poured palette and ends with a careful tilt, a quiet breath of warm air, and a long slow dry. No two are alike. Each is signed, dated, and finished by hand on the back of the canvas."
+        },
+        "f006": {
+          "type": "rich",
+          "label": "Text — My work is inspired by the Japanese philosophy of wabi-sabi: find",
+          "default": "My work is inspired by the Japanese philosophy of wabi-sabi: finding beauty in imperfection, simplicity, and the natural flow of life. Each painting embraces movement, organic details, and subtle variations that cannot be repeated, making every piece truly one of a kind."
+        },
+        "f007": {
+          "type": "image",
+          "label": "Background image — media r-45",
+          "default": "/assets/painting_5_c.jpg"
+        },
+        "f008": {
+          "type": "text",
+          "label": "Heading — Want to see the process in person?",
+          "default": "Want to see the process in person?"
+        },
+        "f009": {
+          "type": "rich",
+          "label": "Text — Walk in from the Salon Lofts lobby in Akron to see how a pour pai",
+          "default": "Walk in from the Salon Lofts lobby in Akron to see how a pour painting comes together."
+        },
+        "f010": {
+          "type": "text",
+          "label": "Link text — Visit the studio",
+          "default": "Visit the studio"
+        },
+        "f011": {
+          "type": "url",
+          "label": "Link destination — Visit the studio",
+          "default": "/studio/"
+        }
+      },
+      "gallery": [],
+      "content": "\n\n\n\n<div class=\"page-head\">\n  <div class=\"container\">\n    <span class=\"eyebrow\">The story</span>\n    <h1>A painting is a kind of dance.</h1>\n  </div>\n</div>\n\n<section class=\"container\" style=\"padding-top:0;\">\n  <div class=\"story-grid\">\n    <div class=\"story-text\">\n      <p>I'm Elizabeth, an abstract artist working primarily in acrylic pouring and fluid art techniques, from a studio inside Salon Lofts in Akron. My work is guided by a deep connection to color, movement, and the organic flow of paint as it finds its own shape on canvas.</p>\n      <div class=\"pull-quote\">\"The hairdryer is part of the process. It moves the paint, opens the cells, and gives each piece its breath.\"</div>\n      <p>I approach painting as a kind of dance. Every piece begins with a poured palette and ends with a careful tilt, a quiet breath of warm air, and a long slow dry. No two are alike. Each is signed, dated, and finished by hand on the back of the canvas.</p>\n      <p>My work is inspired by the Japanese philosophy of wabi-sabi: finding beauty in imperfection, simplicity, and the natural flow of life. Each painting embraces movement, organic details, and subtle variations that cannot be repeated, making every piece truly one of a kind.</p>\n    </div>\n    <div class=\"media r-45\" style=\"background-image:url('/assets/painting_5_c.jpg');\"></div>\n  </div>\n</section>\n\n<div class=\"band\">\n  <h2>Want to see the process in person?</h2>\n  <p>Walk in from the Salon Lofts lobby in Akron to see how a pour painting comes together.</p>\n  <a href=\"/studio/\" class=\"btn\">Visit the studio</a>\n</div>\n\n\n\n\n\n\n"
+    },
+    "studio": {
+      "title": "Studio",
+      "path": "/studio/",
+      "seo_title": "Visit the studio in Akron — Elizabeth Zab Art · Akron, OH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow",
+        "googlebot": "index, follow",
+        "description": "Walk in to Elizabeth Zab's studio at 3987 Medina Rd, Akron — inside Salon Lofts. See original pour paintings, pick up, or ask about a commission.",
+        "author": "Elizabeth Zab",
+        "og:type": "website",
+        "og:title": "Visit the studio in Akron · Elizabeth Zab Art",
+        "og:description": "Walk in to Elizabeth Zab's studio at 3987 Medina Rd, Akron — inside Salon Lofts. See original pour paintings, pick up, or ask about a commission.",
+        "og:image": "https://elizabethzab.art/assets/painting_8.jpg",
+        "og:image:alt": "Black, yellow, and red abstract acrylic pour painting by Elizabeth Zab in her Akron studio",
+        "og:image:width": "1440",
+        "og:image:height": "1440",
+        "og:url": "https://elizabethzab.art/studio/",
+        "og:site_name": "Elizabeth Zab Art",
+        "og:locale": "en_US",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Visit the studio in Akron · Elizabeth Zab Art",
+        "twitter:description": "Walk in to Elizabeth Zab's studio at 3987 Medina Rd, Akron — inside Salon Lofts. See original pour paintings, pick up, or ask about a commission.",
+        "twitter:image": "https://elizabethzab.art/assets/painting_8.jpg",
+        "twitter:image:alt": "Black, yellow, and red abstract acrylic pour painting by Elizabeth Zab in her Akron studio",
+        "geo.region": "US-OH",
+        "geo.placename": "Akron, Ohio",
+        "geo.position": "41.0814;-81.5190",
+        "ICBM": "41.0814, -81.5190",
+        "theme-color": "#2D4434"
+      },
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Place",
+          "@id": "https://elizabethzab.art/studio/#place",
+          "name": "Elizabeth Zab Art — Studio",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "3987 Medina Rd, Studio 3",
+            "addressLocality": "Akron",
+            "addressRegion": "OH",
+            "postalCode": "44333",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.0814,
+            "longitude": -81.519
+          },
+          "hasMap": "https://maps.google.com/?q=3987+Medina+Rd+Akron+OH+44333",
+          "telephone": "+1-440-477-1972",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Wednesday",
+              "opens": "15:00",
+              "closes": "19:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Thursday",
+              "opens": "12:00",
+              "closes": "16:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Friday",
+              "opens": "11:00",
+              "closes": "14:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Saturday",
+              "opens": "10:00",
+              "closes": "14:00"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://elizabethzab.art/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Visit the studio",
+              "item": "https://elizabethzab.art/studio/"
+            }
+          ]
+        }
+      ],
+      "fields": {
+        "f001": {
+          "type": "text",
+          "label": "Text — Visit",
+          "default": "Visit"
+        },
+        "f002": {
+          "type": "text",
+          "label": "Heading — Visit the studio.",
+          "default": "Visit the studio."
+        },
+        "f003": {
+          "type": "rich",
+          "label": "Text — Walk in from the Salon Lofts lobby during my studio hours.",
+          "default": "Walk in from the Salon Lofts lobby during my studio hours."
+        },
+        "f004": {
+          "type": "attribute",
+          "label": "Image description — Blue, silver and white abstract acrylic pour painting b",
+          "default": "Blue, silver and white abstract acrylic pour painting by Elizabeth Zab, blooming across a canvas split between white and black"
+        },
+        "f005": {
+          "type": "image",
+          "label": "Background image — Blue, silver and white abstract acrylic pour painting by Elizabet",
+          "default": "/assets/painting_13.webp"
+        },
+        "f006": {
+          "type": "text",
+          "label": "Text — Visit the studio",
+          "default": "Visit the studio"
+        },
+        "f007": {
+          "type": "text",
+          "label": "Heading — Salon Lofts, Akron.",
+          "default": "Salon Lofts, Akron."
+        },
+        "f008": {
+          "type": "rich",
+          "label": "Text — My studio is open to walk-ins during my studio hours. Walk in fro",
+          "default": "My studio is open to walk-ins during my studio hours. Walk in from the Salon Lofts main lobby, see the work in person, ask about a commission, or pick up a piece you've reserved."
+        },
+        "f009": {
+          "type": "rich",
+          "label": "Text — My studio hours are separate from the Salon Lofts lobby hours. Th",
+          "default": "My studio hours are separate from the Salon Lofts lobby hours. The times listed below are when you can usually find me in the studio."
+        },
+        "f010": {
+          "type": "rich",
+          "label": "Text — Would you like to visit outside these hours? Send me a message on",
+          "default": "Would you like to visit outside these hours? Send me a message on Instagram or call me at (440) 477-1972, and I'll be happy to arrange a convenient time. Complimentary pickup is available for reserved artwork."
+        },
+        "f011": {
+          "type": "text",
+          "label": "Text — Address",
+          "default": "Address"
+        },
+        "f012": {
+          "type": "text",
+          "label": "Text — Studio",
+          "default": "Studio"
+        },
+        "f013": {
+          "type": "text",
+          "label": "Text — Studio hours",
+          "default": "Studio hours"
+        },
+        "f014": {
+          "type": "text",
+          "label": "Text — Reach me",
+          "default": "Reach me"
+        },
+        "f015": {
+          "type": "text",
+          "label": "Link text — (440) 477-1972",
+          "default": "(440) 477-1972"
+        },
+        "f016": {
+          "type": "text",
+          "label": "Link text — Get directions",
+          "default": "Get directions"
+        },
+        "f017": {
+          "type": "url",
+          "label": "Link destination — Get directions",
+          "default": "https://maps.google.com/?q=3987+Medina+Rd+Akron+OH+44333"
+        }
+      },
+      "gallery": [],
+      "content": "\n\n\n\n<div class=\"page-head\">\n  <div class=\"container\">\n    <span class=\"eyebrow\">Visit</span>\n    <h1>Visit the studio.</h1>\n    <p class=\"sub\">Walk in from the Salon Lofts lobby during my studio hours.</p>\n  </div>\n</div>\n\n<section class=\"container\" style=\"padding-top:0;\">\n  <div class=\"studio-grid\">\n    <div class=\"media r-34\" role=\"img\" aria-label=\"Blue, silver and white abstract acrylic pour painting by Elizabeth Zab, blooming across a canvas split between white and black\" style=\"background-image:url('/assets/painting_13.webp');\"></div>\n    <div class=\"studio-card\">\n  <span class=\"eyebrow\">Visit the studio</span>\n  <h3>Salon Lofts, Akron.</h3>\n  <p>My studio is open to walk-ins during my studio hours. Walk in from the Salon Lofts main lobby, see the work in person, ask about a commission, or pick up a piece you've reserved.</p>\n  <p>My studio hours are separate from the Salon Lofts lobby hours. The times listed below are when you can usually find me in the studio.</p>\n  <p>Would you like to visit outside these hours? Send me a message on Instagram or call me at (440) 477-1972, and I'll be happy to arrange a convenient time. Complimentary pickup is available for reserved artwork.</p>\n  <dl>\n    <dt>Address</dt>\n    <dd>3987 Medina Rd, Studio 3<br>Akron, OH 44333</dd>\n    <dt>Studio</dt>\n    <dd>Inside Salon Lofts, Studio 3 · walk in from the main lobby</dd>\n    <dt>Studio hours</dt>\n    <dd>Wed 3–7 · Thu 12–4 · Fri 11–2 · Sat 10–2<br>Closed Sun, Mon &amp; Tue</dd>\n    <dt>Reach me</dt>\n    <dd><a href=\"tel:+14404771972\">(440) 477-1972</a> &nbsp;·&nbsp; <a href=\"https://www.instagram.com/elizabethzabartllc?igsh=MXY0MHR5dWs1bWlk\" class=\"ig-link\" target=\"_blank\" rel=\"noopener\" aria-label=\"Instagram @elizabethzabartllc\" title=\"Instagram (@elizabethzabartllc)\"><svg class=\"ig-glyph\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24s3.668-.014 4.948-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z\"/></svg></a></dd>\n  </dl>\n  <div class=\"card-actions\" style=\"display:flex; gap:10px; flex-wrap:wrap; margin-top:4px;\">\n    <a href=\"https://maps.google.com/?q=3987+Medina+Rd+Akron+OH+44333\" target=\"_blank\" rel=\"noopener\" class=\"btn\">Get directions</a>\n    <a href=\"https://www.instagram.com/elizabethzabartllc?igsh=MXY0MHR5dWs1bWlk\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-brand ig-btn\"><svg class=\"ig-glyph\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24s3.668-.014 4.948-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z\"/></svg><span>Message me on Instagram</span></a>\n  </div>\n</div>\n  </div>\n</section>\n\n\n\n\n\n\n"
+    },
+    "designers": {
+      "title": "Designers",
+      "path": "/designers/",
+      "seo_title": "Stage with originals — Elizabeth Zab Art · Akron, OH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow",
+        "googlebot": "index, follow",
+        "description": "For designers and realtors: stage listings with original Elizabeth Zab pour paintings, commission a palette to match a room, or order signed client gifts.",
+        "author": "Elizabeth Zab",
+        "og:type": "website",
+        "og:title": "Stage with originals · Elizabeth Zab Art",
+        "og:description": "For designers and realtors: stage listings with original Elizabeth Zab pour paintings, commission a palette to match a room, or order signed client gifts.",
+        "og:image": "https://elizabethzab.art/assets/painting_4.jpg",
+        "og:image:alt": "Interior styled with an original Elizabeth Zab acrylic pour painting, Akron Ohio",
+        "og:image:width": "1440",
+        "og:image:height": "1440",
+        "og:url": "https://elizabethzab.art/designers/",
+        "og:site_name": "Elizabeth Zab Art",
+        "og:locale": "en_US",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Stage with originals · Elizabeth Zab Art",
+        "twitter:description": "For designers and realtors: stage listings with original Elizabeth Zab pour paintings, commission a palette to match a room, or order signed client gifts.",
+        "twitter:image": "https://elizabethzab.art/assets/painting_4.jpg",
+        "twitter:image:alt": "Interior styled with an original Elizabeth Zab acrylic pour painting, Akron Ohio",
+        "geo.region": "US-OH",
+        "geo.placename": "Akron, Ohio",
+        "geo.position": "41.0814;-81.5190",
+        "ICBM": "41.0814, -81.5190",
+        "theme-color": "#2D4434"
+      },
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "serviceType": "Art Staging and Commissioning",
+          "provider": {
+            "@type": "LocalBusiness",
+            "@id": "https://elizabethzab.art/#org",
+            "name": "Elizabeth Zab Art"
+          },
+          "areaServed": [
+            "Akron",
+            "Cleveland",
+            "Medina",
+            "Hudson",
+            "Northeast Ohio"
+          ],
+          "description": "Original pour paintings for staging listings, commissioned palettes to match a buyer's room, and signed originals as closing or client gifts."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://elizabethzab.art/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Designers",
+              "item": "https://elizabethzab.art/designers/"
+            }
+          ]
+        }
+      ],
+      "fields": {
+        "f001": {
+          "type": "attribute",
+          "label": "Image description — Room visualization with an Elizabeth Zab pour painting",
+          "default": "Room visualization with an Elizabeth Zab pour painting"
+        },
+        "f002": {
+          "type": "image",
+          "label": "Background image — Room visualization with an Elizabeth Zab pour painting",
+          "default": "/assets/painting_4.jpg"
+        },
+        "f003": {
+          "type": "text",
+          "label": "Text — For designers & realtors",
+          "default": "For designers &amp; realtors"
+        },
+        "f004": {
+          "type": "text",
+          "label": "Heading — Stage with originals.",
+          "default": "Stage with originals."
+        },
+        "f005": {
+          "type": "rich",
+          "label": "Text — An original pour painting lifts a listing or a client's room in a",
+          "default": "An original pour painting lifts a listing or a client's room in a way that a print can't."
+        },
+        "f006": {
+          "type": "rich",
+          "label": "Text — I work with realtors and interior designers across Akron, Clevela",
+          "default": "I work with realtors and interior designers across Akron, Cleveland, Medina, and Hudson, on staging, commissioned palettes, and signed client gifts."
+        },
+        "f007": {
+          "type": "rich",
+          "label": "Text — Here's how that usually works:",
+          "default": "Here's how that usually works:"
+        },
+        "f008": {
+          "type": "rich",
+          "label": "Text — Stage a listing with original work, with pickup or swap when the ",
+          "default": "Stage a listing with original work, with pickup or swap when the home sells"
+        },
+        "f009": {
+          "type": "rich",
+          "label": "Text — Commission a palette to match a buyer's room or a client's space",
+          "default": "Commission a palette to match a buyer's room or a client's space"
+        },
+        "f010": {
+          "type": "rich",
+          "label": "Text — Signed originals as closing or client gifts",
+          "default": "Signed originals as closing or client gifts"
+        },
+        "f011": {
+          "type": "text",
+          "label": "Link text — (440) 477-1972",
+          "default": "(440) 477-1972"
+        },
+        "f012": {
+          "type": "text",
+          "label": "Text — See it in the room",
+          "default": "See it in the room"
+        },
+        "f013": {
+          "type": "text",
+          "label": "Heading — Staged with an original.",
+          "default": "Staged with an original."
+        },
+        "f014": {
+          "type": "rich",
+          "label": "Text — One poured piece can set the tone for an entire room.",
+          "default": "One poured piece can set the tone for an entire room."
+        },
+        "f015": {
+          "type": "image",
+          "label": "Image — A neutral abstract pour painting by Elizabeth Zab frame",
+          "default": "/assets/painting_12.webp"
+        },
+        "f016": {
+          "type": "attribute",
+          "label": "Image description — A neutral abstract pour painting by Elizabeth Zab frame",
+          "default": "A neutral abstract pour painting by Elizabeth Zab framed above a sofa in a styled living room"
+        },
+        "f017": {
+          "type": "text",
+          "label": "Heading — Tell me about your listing or your client.",
+          "default": "Tell me about your listing or your client."
+        },
+        "f018": {
+          "type": "rich",
+          "label": "Text — Call or message and we'll find the right piece, palette, or commi",
+          "default": "Call or message and we'll find the right piece, palette, or commission for the space."
+        },
+        "f019": {
+          "type": "text",
+          "label": "Link text — Call (440) 477-1972",
+          "default": "Call (440) 477-1972"
+        }
+      },
+      "gallery": [],
+      "content": "\n\n\n\n<section class=\"dark\" style=\"padding-top: clamp(56px,8vw,104px);\">\n  <div class=\"container\">\n    <div class=\"realtor-grid\">\n      <div class=\"media r-43 viz\" style=\"background-image:url('/assets/painting_4.jpg');\" role=\"img\" aria-label=\"Room visualization with an Elizabeth Zab pour painting\"></div>\n      <div>\n        <span class=\"eyebrow\">For designers &amp; realtors</span>\n        <h1 style=\"color: var(--white); margin: 10px 0 8px;\">Stage with originals.</h1>\n        <p>An original pour painting lifts a listing or a client's room in a way that a print can't.</p>\n        <p>I work with realtors and interior designers across Akron, Cleveland, Medina, and Hudson, on staging, commissioned palettes, and signed client gifts.</p>\n        <p>Here's how that usually works:</p>\n        <ol class=\"realtor-list\">\n          <li>Stage a listing with original work, with pickup or swap when the home sells</li>\n          <li>Commission a palette to match a buyer's room or a client's space</li>\n          <li>Signed originals as closing or client gifts</li>\n        </ol>\n        <p class=\"contact-line\"><a href=\"tel:+14404771972\" style=\"color:inherit;\">(440) 477-1972</a> &nbsp;·&nbsp; <a href=\"https://www.instagram.com/elizabethzabartllc?igsh=MXY0MHR5dWs1bWlk\" class=\"ig-link\" style=\"color:inherit;\" target=\"_blank\" rel=\"noopener\" aria-label=\"Instagram @elizabethzabartllc\" title=\"Instagram (@elizabethzabartllc)\"><svg class=\"ig-glyph\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24s3.668-.014 4.948-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z\"/></svg></a></p>\n      </div>\n    </div>\n  </div>\n</section>\n\n<section class=\"container\">\n  <div style=\"text-align:center; max-width:640px; margin:0 auto 34px;\">\n    <span class=\"eyebrow\">See it in the room</span>\n    <h2 style=\"margin-top:10px;\">Staged with an original.</h2>\n    <p style=\"margin-top:12px;\">One poured piece can set the tone for an entire room.</p>\n  </div>\n  <figure class=\"viz\" style=\"position:relative; max-width:760px; margin:0 auto;\">\n    <img src=\"/assets/painting_12.webp\" width=\"472\" height=\"442\" loading=\"lazy\" decoding=\"async\" alt=\"A neutral abstract pour painting by Elizabeth Zab framed above a sofa in a styled living room\" style=\"display:block; width:100%; height:auto; border-radius:2px;\">\n  </figure>\n</section>\n\n<div class=\"band\">\n  <h2>Tell me about your listing or your client.</h2>\n  <p>Call or message and we'll find the right piece, palette, or commission for the space.</p>\n  <a href=\"tel:+14404771972\" class=\"btn\">Call (440) 477-1972</a>\n  <div style=\"margin-top:16px;\"><a href=\"https://www.instagram.com/elizabethzabartllc?igsh=MXY0MHR5dWs1bWlk\" class=\"btn btn-ghost ig-btn\" target=\"_blank\" rel=\"noopener\"><svg class=\"ig-glyph\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24s3.668-.014 4.948-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z\"/></svg><span>Message me on Instagram</span></a></div>\n</div>\n\n\n\n\n\n\n"
+    },
+    "qa": {
+      "title": "Q&A",
+      "path": "/qa/",
+      "seo_title": "Common questions — Elizabeth Zab Art · Akron, OH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow",
+        "googlebot": "index, follow",
+        "description": "Pour painting, the hairdryer technique, studio pickup, shipping, Certificates of Authenticity, working with realtors — Elizabeth Zab Art FAQ.",
+        "author": "Elizabeth Zab",
+        "og:type": "website",
+        "og:title": "Common questions · Elizabeth Zab Art",
+        "og:description": "Pour painting, the hairdryer technique, studio pickup, shipping, Certificates of Authenticity, working with realtors — Elizabeth Zab Art FAQ.",
+        "og:image": "https://elizabethzab.art/assets/painting_1.jpg",
+        "og:image:alt": "Pink, green, and silver abstract acrylic pour painting by Elizabeth Zab, Akron Ohio",
+        "og:image:width": "430",
+        "og:image:height": "480",
+        "og:url": "https://elizabethzab.art/qa/",
+        "og:site_name": "Elizabeth Zab Art",
+        "og:locale": "en_US",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Common questions · Elizabeth Zab Art",
+        "twitter:description": "Pour painting, the hairdryer technique, studio pickup, shipping, Certificates of Authenticity, working with realtors — Elizabeth Zab Art FAQ.",
+        "twitter:image": "https://elizabethzab.art/assets/painting_1.jpg",
+        "twitter:image:alt": "Pink, green, and silver abstract acrylic pour painting by Elizabeth Zab, Akron Ohio",
+        "geo.region": "US-OH",
+        "geo.placename": "Akron, Ohio",
+        "geo.position": "41.0814;-81.5190",
+        "ICBM": "41.0814, -81.5190",
+        "theme-color": "#2D4434"
+      },
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What Is Fluid Art?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Acrylic pour painting, also known as fluid art, is a contemporary painting technique in which acrylic paints are mixed with a pouring medium to create a smooth, flowing consistency. The paint is then poured and layered onto the canvas, allowing the colors to move, blend, and interact organically. The Dutch pour is a fluid art technique that uses air to guide the paint across the canvas. By blowing and directing the colors, the artist creates flowing movement, delicate details, and one-of-a-kind abstract compositions. Because the paint moves naturally, each piece develops its own unique character and cannot be recreated exactly."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the hairdryer for?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Warm air opens cells in the paint and helps me shape how the pigments settle. It's part of how each piece finds its breath. It's also how I keep the paint moving without losing its body."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I commission a custom piece?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. I take commissions for specific palettes, sizes, and rooms. Most commissions take two to four weeks depending on size and cure time. Reach out by phone or Instagram to start."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I pick up at the studio?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes — local pickup at the Salon Lofts studio in Akron is the easiest way. Walk in during my studio hours, or message me on Instagram to schedule."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you ship?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Shipping or pickup can be discussed when you inquire. Most local buyers (Akron, Cleveland, Medina, Hudson) pick up directly at the studio, which is the easiest option. International shipping is not offered at this time."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you offer Certificates of Authenticity?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Every original ships with a signed Certificate of Authenticity that includes the piece's title, date, materials, and a brief note about the work."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you work with realtors or designers?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. I work with realtors and interior designers on staging listings with original work, commissioning palettes to match a room, and signed originals as client gifts. See the designers & realtors page, or call (440) 477-1972."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where can I see the work in person?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "At my studio inside Salon Lofts, 3987 Medina Rd, Studio 3, Akron, OH 44333. Walk in during studio hours to see the work in person."
+              }
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://elizabethzab.art/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Q&A",
+              "item": "https://elizabethzab.art/qa/"
+            }
+          ]
+        }
+      ],
+      "fields": {
+        "f001": {
+          "type": "text",
+          "label": "Text — Common questions",
+          "default": "Common questions"
+        },
+        "f002": {
+          "type": "text",
+          "label": "Heading — Good to know.",
+          "default": "Good to know."
+        },
+        "f003": {
+          "type": "rich",
+          "label": "Text — Common questions about the work, the studio, and how to buy.",
+          "default": "Common questions about the work, the studio, and how to buy."
+        },
+        "f004": {
+          "type": "text",
+          "label": "Text — What Is Fluid Art?",
+          "default": "What Is Fluid Art?"
+        },
+        "f005": {
+          "type": "rich",
+          "label": "Text — Acrylic pour painting, also known as fluid art, is a contemporary",
+          "default": "Acrylic pour painting, also known as fluid art, is a contemporary painting technique in which acrylic paints are mixed with a pouring medium to create a smooth, flowing consistency. The paint is then poured and layered onto the canvas, allowing the colors to move, blend, and interact organically."
+        },
+        "f006": {
+          "type": "rich",
+          "label": "Text — The Dutch pour is a fluid art technique that uses air to guide th",
+          "default": "The Dutch pour is a fluid art technique that uses air to guide the paint across the canvas. By blowing and directing the colors, the artist creates flowing movement, delicate details, and one-of-a-kind abstract compositions."
+        },
+        "f007": {
+          "type": "rich",
+          "label": "Text — Because the paint moves naturally, each piece develops its own un",
+          "default": "Because the paint moves naturally, each piece develops its own unique character and cannot be recreated exactly."
+        },
+        "f008": {
+          "type": "text",
+          "label": "Text — What is the hairdryer for?",
+          "default": "What is the hairdryer for?"
+        },
+        "f009": {
+          "type": "rich",
+          "label": "Text — Warm air opens cells in the paint and helps me shape how the pigm",
+          "default": "Warm air opens cells in the paint and helps me shape how the pigments settle. It's part of how each piece finds its breath. It's also how I keep the paint moving without losing its body."
+        },
+        "f010": {
+          "type": "text",
+          "label": "Text — Can I commission a custom piece?",
+          "default": "Can I commission a custom piece?"
+        },
+        "f011": {
+          "type": "rich",
+          "label": "Text — Yes. I take commissions for specific palettes, sizes, and rooms. ",
+          "default": "Yes. I take commissions for specific palettes, sizes, and rooms. Most commissions take two to four weeks depending on size and cure time. Reach out by phone or Instagram to start."
+        },
+        "f012": {
+          "type": "text",
+          "label": "Text — Can I pick up at the studio?",
+          "default": "Can I pick up at the studio?"
+        },
+        "f013": {
+          "type": "rich",
+          "label": "Text — Yes — local pickup at the Salon Lofts studio in Akron is the easi",
+          "default": "Yes — local pickup at the Salon Lofts studio in Akron is the easiest way. Walk in during my studio hours, or message me on Instagram to schedule."
+        },
+        "f014": {
+          "type": "text",
+          "label": "Text — Do you ship?",
+          "default": "Do you ship?"
+        },
+        "f015": {
+          "type": "rich",
+          "label": "Text — Shipping or pickup can be discussed when you inquire. Most local ",
+          "default": "Shipping or pickup can be discussed when you inquire. Most local buyers (Akron, Cleveland, Medina, Hudson) pick up directly at the studio, which is the easiest option. International shipping is not offered at this time."
+        },
+        "f016": {
+          "type": "text",
+          "label": "Text — Do you offer Certificates of Authenticity?",
+          "default": "Do you offer Certificates of Authenticity?"
+        },
+        "f017": {
+          "type": "rich",
+          "label": "Text — Every original ships with a signed Certificate of Authenticity th",
+          "default": "Every original ships with a signed Certificate of Authenticity that includes the piece's title, date, materials, and a brief note about the work."
+        },
+        "f018": {
+          "type": "text",
+          "label": "Text — Do you work with realtors or designers?",
+          "default": "Do you work with realtors or designers?"
+        },
+        "f019": {
+          "type": "rich",
+          "label": "Text — Yes. I work with realtors and interior designers on staging listi",
+          "default": "Yes. I work with realtors and interior designers on staging listings with original work, commissioning palettes to match a room, and signed originals as client gifts. See the designers &amp; realtors page, or call (440) 477-1972."
+        },
+        "f020": {
+          "type": "text",
+          "label": "Text — Where can I see the work in person?",
+          "default": "Where can I see the work in person?"
+        },
+        "f021": {
+          "type": "rich",
+          "label": "Heading — Signed, dated, and shipped with a Certificate of Authenticity.",
+          "default": "Signed, dated, and shipped with a <span>Certificate of Authenticity.</span>"
+        }
+      },
+      "gallery": [],
+      "content": "\n\n\n\n<div class=\"page-head\">\n  <div class=\"container\">\n    <span class=\"eyebrow\">Common questions</span>\n    <h1>Good to know.</h1>\n    <p class=\"sub\">Common questions about the work, the studio, and how to buy.</p>\n  </div>\n</div>\n\n<section class=\"container\" style=\"padding-top:0;\">\n  <div class=\"qa-wrap qa\">\n  <details open>\n    <summary>What Is Fluid Art?</summary>\n    <p>Acrylic pour painting, also known as fluid art, is a contemporary painting technique in which acrylic paints are mixed with a pouring medium to create a smooth, flowing consistency. The paint is then poured and layered onto the canvas, allowing the colors to move, blend, and interact organically.</p>\n    <p>The Dutch pour is a fluid art technique that uses air to guide the paint across the canvas. By blowing and directing the colors, the artist creates flowing movement, delicate details, and one-of-a-kind abstract compositions.</p>\n    <p>Because the paint moves naturally, each piece develops its own unique character and cannot be recreated exactly.</p>\n  </details>\n  <details>\n    <summary>What is the hairdryer for?</summary>\n    <p>Warm air opens cells in the paint and helps me shape how the pigments settle. It's part of how each piece finds its breath. It's also how I keep the paint moving without losing its body.</p>\n  </details>\n  <details>\n    <summary>Can I commission a custom piece?</summary>\n    <p>Yes. I take commissions for specific palettes, sizes, and rooms. Most commissions take two to four weeks depending on size and cure time. Reach out by phone or Instagram to start.</p>\n  </details>\n  <details>\n    <summary>Can I pick up at the studio?</summary>\n    <p>Yes — local pickup at the Salon Lofts studio in Akron is the easiest way. Walk in during my studio hours, or message me on Instagram to schedule.</p>\n  </details>\n  <details>\n    <summary>Do you ship?</summary>\n    <p>Shipping or pickup can be discussed when you inquire. Most local buyers (Akron, Cleveland, Medina, Hudson) pick up directly at the studio, which is the easiest option. International shipping is not offered at this time.</p>\n  </details>\n  <details>\n    <summary>Do you offer Certificates of Authenticity?</summary>\n    <p>Every original ships with a signed Certificate of Authenticity that includes the piece's title, date, materials, and a brief note about the work.</p>\n  </details>\n  <details>\n    <summary>Do you work with realtors or designers?</summary>\n    <p>Yes. I work with realtors and interior designers on staging listings with original work, commissioning palettes to match a room, and signed originals as client gifts. See the designers &amp; realtors page, or call (440) 477-1972.</p>\n  </details>\n  <details>\n    <summary>Where can I see the work in person?</summary>\n    <p>At my studio inside Salon Lofts, 3987 Medina Rd, Studio 3, Akron, OH 44333. Walk in during studio hours to see the work in person.</p>\n  </details>\n  </div>\n</section>\n\n<div class=\"coa\">\n  <div class=\"seal\">Every Original</div>\n  <h3>Signed, dated, and shipped with a <span>Certificate of Authenticity.</span></h3>\n</div>\n\n\n\n\n\n\n"
+    },
+    "classes": {
+      "title": "Classes",
+      "path": "/classes/",
+      "seo_title": "Acrylic Fluid Art Classes · Elizabeth Zab Art · Akron, OH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow",
+        "googlebot": "index, follow",
+        "description": "Small, hands-on Dutch Pour acrylic fluid art workshops at Elizabeth Zab's studio in Akron, OH. No experience needed, all materials provided. Dates coming soon.",
+        "author": "Elizabeth Zab",
+        "og:type": "website",
+        "og:title": "Acrylic Fluid Art Classes · Elizabeth Zab Art",
+        "og:description": "Small, hands-on Dutch Pour acrylic fluid art workshops at Elizabeth Zab's studio in Akron, OH. No experience needed, all materials provided. Dates coming soon.",
+        "og:image": "https://elizabethzab.art/assets/painting_10.webp",
+        "og:image:alt": "Ocean Path, a turquoise and aqua Dutch Pour painting with white lacing by Elizabeth Zab, Akron Ohio",
+        "og:url": "https://elizabethzab.art/classes/",
+        "og:site_name": "Elizabeth Zab Art",
+        "og:locale": "en_US",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Acrylic Fluid Art Classes · Elizabeth Zab Art",
+        "twitter:description": "Small, hands-on Dutch Pour acrylic fluid art workshops at Elizabeth Zab's studio in Akron, OH. No experience needed, all materials provided. Dates coming soon.",
+        "twitter:image": "https://elizabethzab.art/assets/painting_10.webp",
+        "twitter:image:alt": "Ocean Path, a turquoise and aqua Dutch Pour painting with white lacing by Elizabeth Zab, Akron Ohio",
+        "geo.region": "US-OH",
+        "geo.placename": "Akron, Ohio",
+        "geo.position": "41.0814;-81.5190",
+        "ICBM": "41.0814, -81.5190",
+        "theme-color": "#2D4434"
+      },
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://elizabethzab.art/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Classes",
+              "item": "https://elizabethzab.art/classes/"
+            }
+          ]
+        }
+      ],
+      "fields": {
+        "f001": {
+          "type": "text",
+          "label": "Text — Classes · Coming soon",
+          "default": "Classes · Coming soon"
+        },
+        "f002": {
+          "type": "text",
+          "label": "Heading — Acrylic Fluid Art Classes",
+          "default": "Acrylic Fluid Art Classes"
+        },
+        "f003": {
+          "type": "rich",
+          "label": "Text — Join me for a small, hands-on Dutch Pour workshop and create your",
+          "default": "Join me for a small, hands-on Dutch Pour workshop and create your own one-of-a-kind painting. No experience needed, all materials are provided, and classes are kept small for individual guidance."
+        },
+        "f004": {
+          "type": "text",
+          "label": "Heading — What is a Dutch Pour?",
+          "default": "What is a Dutch Pour?"
+        },
+        "f005": {
+          "type": "rich",
+          "label": "Text — Dutch Pour is an acrylic fluid art technique that uses airflow to",
+          "default": "Dutch Pour is an acrylic fluid art technique that uses airflow to move paint across the canvas, creating beautiful flowing patterns, delicate lacing, and organic movement."
+        },
+        "f006": {
+          "type": "attribute",
+          "label": "Image description — Ocean Path, a turquoise and aqua Dutch Pour painting wi",
+          "default": "Ocean Path, a turquoise and aqua Dutch Pour painting with white lacing by Elizabeth Zab"
+        },
+        "f007": {
+          "type": "image",
+          "label": "Background image — Ocean Path, a turquoise and aqua Dutch Pour painting with white l",
+          "default": "/assets/painting_10.webp"
+        },
+        "f008": {
+          "type": "text",
+          "label": "Heading — Workshops coming soon",
+          "default": "Workshops coming soon"
+        },
+        "f009": {
+          "type": "rich",
+          "label": "Text — Stay tuned for dates and registration information!",
+          "default": "Stay tuned for dates and registration information!"
+        },
+        "f010": {
+          "type": "text",
+          "label": "Link text — Follow on Instagram",
+          "default": "Follow on Instagram"
+        }
+      },
+      "gallery": [],
+      "content": "\n\n\n\n<div class=\"page-head\">\n  <div class=\"container\">\n    <span class=\"eyebrow\">Classes · Coming soon</span>\n    <h1>Acrylic Fluid Art Classes</h1>\n    <p class=\"sub\">Join me for a small, hands-on Dutch Pour workshop and create your own one-of-a-kind painting. No experience needed, all materials are provided, and classes are kept small for individual guidance.</p>\n  </div>\n</div>\n\n<section class=\"container\" style=\"padding-top:0;\">\n  <div class=\"story-grid\">\n    <div class=\"story-text\">\n      <h2>What is a Dutch Pour?</h2>\n      <p>Dutch Pour is an acrylic fluid art technique that uses airflow to move paint across the canvas, creating beautiful flowing patterns, delicate lacing, and organic movement.</p>\n    </div>\n    <div class=\"media r-43\" role=\"img\" aria-label=\"Ocean Path, a turquoise and aqua Dutch Pour painting with white lacing by Elizabeth Zab\" style=\"background-image:url('/assets/painting_10.webp');\"></div>\n  </div>\n</section>\n\n<div class=\"band\">\n  <h2>Workshops coming soon</h2>\n  <p>Stay tuned for dates and registration information!</p>\n  <a href=\"https://www.instagram.com/elizabethzabartllc?igsh=MXY0MHR5dWs1bWlk\" class=\"btn ig-btn\" target=\"_blank\" rel=\"noopener\">Follow on Instagram</a>\n</div>\n\n\n\n\n\n\n"
+    },
+    "404": {
+      "title": "Page not found",
+      "path": "/404/",
+      "seo_title": "Page not found — Elizabeth Zab Art",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "noindex, follow",
+        "theme-color": "#2D4434"
+      },
+      "schema": [],
+      "fields": {
+        "f001": {
+          "type": "text",
+          "label": "Text — Error 404",
+          "default": "Error 404"
+        },
+        "f002": {
+          "type": "text",
+          "label": "Heading — This page poured off the canvas.",
+          "default": "This page poured off&nbsp;the canvas."
+        },
+        "f003": {
+          "type": "rich",
+          "label": "Text — The page you were looking for isn't here, but the paint is still ",
+          "default": "The page you were looking for isn't here, but the paint is still moving. Let's get you back to the work."
+        },
+        "f004": {
+          "type": "text",
+          "label": "Link text — View the work",
+          "default": "View the work"
+        },
+        "f005": {
+          "type": "url",
+          "label": "Link destination — View the work",
+          "default": "/work/"
+        },
+        "f006": {
+          "type": "text",
+          "label": "Link text — Back home",
+          "default": "Back home"
+        },
+        "f007": {
+          "type": "url",
+          "label": "Link destination — Back home",
+          "default": "/"
+        },
+        "f008": {
+          "type": "rich",
+          "label": "Text — Or head to the studio, the Q&A, or designers & realtors.",
+          "default": "Or head to <a href=\"/studio/\">the studio</a>, the <a href=\"/qa/\">Q&amp;A</a>, or <a href=\"/designers/\">designers &amp; realtors</a>."
+        },
+        "f009": {
+          "type": "attribute",
+          "label": "Image description — Original poured paint · Elizabeth Zab",
+          "default": "An acrylic pour spreading across a canvas and settling into an original painting by Elizabeth Zab"
+        },
+        "f010": {
+          "type": "image",
+          "label": "Image — /assets/painting_6.jpg",
+          "default": "/assets/painting_6.jpg"
+        },
+        "f011": {
+          "type": "attribute",
+          "label": "Image description — ",
+          "default": ""
+        },
+        "f012": {
+          "type": "image",
+          "label": "Image — /assets/painting_10.webp",
+          "default": "/assets/painting_10.webp"
+        },
+        "f013": {
+          "type": "attribute",
+          "label": "Image description — ",
+          "default": ""
+        },
+        "f014": {
+          "type": "image",
+          "label": "Image — /assets/painting_11.webp",
+          "default": "/assets/painting_11.webp"
+        },
+        "f015": {
+          "type": "attribute",
+          "label": "Image description — ",
+          "default": ""
+        },
+        "f016": {
+          "type": "image",
+          "label": "Image — /assets/painting_8.jpg",
+          "default": "/assets/painting_8.jpg"
+        },
+        "f017": {
+          "type": "attribute",
+          "label": "Image description — ",
+          "default": ""
+        },
+        "f018": {
+          "type": "text",
+          "label": "Text — Original poured paint · Elizabeth Zab",
+          "default": "Original poured paint · Elizabeth Zab"
+        }
+      },
+      "gallery": [],
+      "content": "\n\n\n\n<main class=\"err\">\n  <div class=\"err-grid\">\n    <div class=\"err-copy\">\n      <span class=\"eyebrow\">Error 404</span>\n      <h1>This page poured off&nbsp;the canvas.</h1>\n      <p class=\"lede\">The page you were looking for isn't here, but the paint is still moving. Let's get you back to the work.</p>\n      <div class=\"cta-row\">\n        <a href=\"/work/\" class=\"btn btn-brand\">View the work</a>\n        <a href=\"/\" class=\"btn btn-ghost\">Back home</a>\n      </div>\n      <p class=\"more\">Or head to <a href=\"/studio/\">the studio</a>, the <a href=\"/qa/\">Q&amp;A</a>, or <a href=\"/designers/\">designers &amp; realtors</a>.</p>\n    </div>\n\n    <div class=\"canvas-wrap\">\n      <figure class=\"canvas\" role=\"img\" aria-label=\"An acrylic pour spreading across a canvas and settling into an original painting by Elizabeth Zab\">\n        <div class=\"reveal\">\n          <img class=\"active\" src=\"/assets/painting_6.jpg\" alt=\"\" decoding=\"async\">\n          <img src=\"/assets/painting_10.webp\" alt=\"\" decoding=\"async\">\n          <img src=\"/assets/painting_11.webp\" alt=\"\" decoding=\"async\">\n          <img src=\"/assets/painting_8.jpg\" alt=\"\" decoding=\"async\">\n        </div>\n        <span class=\"sheen\" aria-hidden=\"true\"></span>\n        <span class=\"splash\" aria-hidden=\"true\"></span>\n        <span class=\"pour\" aria-hidden=\"true\"></span>\n        <figcaption class=\"frame-label\">Original poured paint · Elizabeth Zab</figcaption>\n      </figure>\n    </div>\n  </div>\n</main>\n\n\n\n<svg width=\"0\" height=\"0\" aria-hidden=\"true\" focusable=\"false\" style=\"position:absolute\">\n  <filter id=\"pour-edge\" x=\"-25%\" y=\"-25%\" width=\"150%\" height=\"150%\" color-interpolation-filters=\"sRGB\">\n    <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.012 0.018\" numOctaves=\"2\" seed=\"7\" result=\"noise\">\n      <animate attributeName=\"baseFrequency\" dur=\"17s\" repeatCount=\"indefinite\"\n               calcMode=\"spline\" keyTimes=\"0;0.5;1\"\n               keySplines=\"0.45 0 0.55 1;0.45 0 0.55 1\"\n               values=\"0.012 0.018; 0.017 0.011; 0.012 0.018\"/>\n    </feTurbulence>\n    <feDisplacementMap in=\"SourceGraphic\" in2=\"noise\" scale=\"18\" xChannelSelector=\"R\" yChannelSelector=\"G\">\n      <animate attributeName=\"scale\" dur=\"11s\" repeatCount=\"indefinite\"\n               calcMode=\"spline\" keyTimes=\"0;0.5;1\"\n               keySplines=\"0.45 0 0.55 1;0.45 0 0.55 1\"\n               values=\"18;11;18\"/>\n    </feDisplacementMap>\n  </filter>\n</svg>\n\n\n\n"
+    }
+  },
+  "assets": [
+    {
+      "path": "apple-touch-icon.png",
+      "sha256": "2bef2bd319114131710ef16aceaa9e666347fc5a0066812034263ba8415d0803",
+      "size": 2024
+    },
+    {
+      "path": "assets/hero_c.jpg",
+      "sha256": "54575bbe0b606d8936a6c6991bf8943bd08750e6a0e4d1d661424a7b00d90736",
+      "size": 48817
+    },
+    {
+      "path": "assets/painting_1.jpg",
+      "sha256": "f8a0cbbb24fce95b98045e2082ce48846847908d71283f1b6216afb30509a619",
+      "size": 80188
+    },
+    {
+      "path": "assets/painting_10.webp",
+      "sha256": "0c6fa18b5feb0a60b6136c1d27d284c7df7022ee9a6ed2057c167c505aeeff24",
+      "size": 72828
+    },
+    {
+      "path": "assets/painting_11.webp",
+      "sha256": "094d73e7e7b87c2c8711bde9f0cd1d0ff4825fb995541770249474b869fea7db",
+      "size": 212074
+    },
+    {
+      "path": "assets/painting_12.webp",
+      "sha256": "33d9cf9a25f7cef7d14fef65c361ecf1cbfd55db4774010f0e880156a84f83a0",
+      "size": 54372
+    },
+    {
+      "path": "assets/painting_13.webp",
+      "sha256": "16b2e253bf952ea32929cc295a07b2af67a7f5ca931c343c5042529f8c34f85d",
+      "size": 169688
+    },
+    {
+      "path": "assets/painting_14.webp",
+      "sha256": "473fd675e0f1692c8e9ae49c8a86426337373a472ee4e248784b14876d29a1d1",
+      "size": 131764
+    },
+    {
+      "path": "assets/painting_15.webp",
+      "sha256": "9ec0a583f20a6cfc74fe8e94276c30674ba1b1fc87180c3209781d809f11dda0",
+      "size": 93432
+    },
+    {
+      "path": "assets/painting_16.webp",
+      "sha256": "8c726f702af36427296f7f48fd7eba307dd41ae671e2dba942ea4b357a18f503",
+      "size": 211898
+    },
+    {
+      "path": "assets/painting_2_backup.jpg",
+      "sha256": "5440ec52a1e052192aff94a2196bb5b6b99643be25563252bcb1145d4a93cd20",
+      "size": 259803
+    },
+    {
+      "path": "assets/painting_3.jpg",
+      "sha256": "9378dc2f130b109943e8a215b7f3ddb5f895f4d5fe74df24c2572eb62435ec4b",
+      "size": 461021
+    },
+    {
+      "path": "assets/painting_3_c.jpg",
+      "sha256": "8d929b3667ed8fac92602cb380582c0ff8c787f7ff4bf7294b5f64b15846d550",
+      "size": 311182
+    },
+    {
+      "path": "assets/painting_4.jpg",
+      "sha256": "842c416d6cba8a4ef21f7ad4d466a0c09b9ab738e2c2ab6866cc4d167f7a6a73",
+      "size": 591727
+    },
+    {
+      "path": "assets/painting_5.jpg",
+      "sha256": "694fda6f9adf6b38706c938669214e0123ad991ba806af01d3ae2ea556ac42f7",
+      "size": 209664
+    },
+    {
+      "path": "assets/painting_5_c.jpg",
+      "sha256": "879634d7c0cee4e1c7a981c1d1e91f84a99db45ef73e78f1bedde558a8caf9ed",
+      "size": 169541
+    },
+    {
+      "path": "assets/painting_6.jpg",
+      "sha256": "a9ff6f8eddb16503cf31b7d49fdfc59ccd3bcea2d67b8601c0f36576d1eae9da",
+      "size": 638248
+    },
+    {
+      "path": "assets/painting_7.jpg",
+      "sha256": "b743ff45b108421236048b40b59bb0fcff4a574e36883621ca1a2982f5985ef4",
+      "size": 238637
+    },
+    {
+      "path": "assets/painting_7_c.jpg",
+      "sha256": "d78d899a51295128572dadfffb6980c81fca3cdb83c4c70c56140bdb5c7dc3b9",
+      "size": 278018
+    },
+    {
+      "path": "assets/painting_8.jpg",
+      "sha256": "14b95f184e65d56edd5a141b537ed132a2ebcf79a967c80794df3088e97e2a11",
+      "size": 244769
+    },
+    {
+      "path": "assets/painting_9.webp",
+      "sha256": "d0dfb55f3d25a457ab3f12e225f7213a491d169ebd297b5d4623ef233d9cd206",
+      "size": 52114
+    },
+    {
+      "path": "favicon-192.png",
+      "sha256": "578b3ae2aeb62d9ca47151fdde411438d71b77352dc4336b3de4bae1f0ad6c5b",
+      "size": 2147
+    },
+    {
+      "path": "favicon-32.png",
+      "sha256": "d44d1b36c0665ccd176fbce1f0920dd314c2bbd256e3e30bec1e50e3b948ad32",
+      "size": 502
+    },
+    {
+      "path": "favicon.ico",
+      "sha256": "c00432dc3462aa8e4f9f734f6ff0f297d2a5f19eb3c8eaa90f50a31b45db07ff",
+      "size": 3744
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "04a511762c3f162c28b438d6d719a62fbb9b2de5a8112e5c92045996503d5a37",
+      "size": 361
+    },
+    {
+      "path": "icon-512.png",
+      "sha256": "607e89e7080b18311c9978772e3ec1a79f15f4485da22d7f623e3a3a045c0a16",
+      "size": 6784
+    },
+    {
+      "path": "llms.txt",
+      "sha256": "6f53a4a91c034e0c38653c5646224b2ea258922cddacd1166dcc2b4179ecc085",
+      "size": 1742
+    }
+  ]
+}

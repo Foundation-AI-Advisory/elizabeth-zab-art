@@ -1,0 +1,55 @@
+
+
+
+
+<main class="err">
+  <div class="err-grid">
+    <div class="err-copy">
+      <span class="eyebrow">{{ez:f001}}</span>
+      <h1>{{ez:f002}}</h1>
+      <p class="lede">{{ez:f003}}</p>
+      <div class="cta-row">
+        <a href="{{ez:f005}}" class="btn btn-brand">{{ez:f004}}</a>
+        <a href="{{ez:f007}}" class="btn btn-ghost">{{ez:f006}}</a>
+      </div>
+      <p class="more">{{ez:f008}}</p>
+    </div>
+
+    <div class="canvas-wrap">
+      <figure class="canvas" role="img" aria-label="{{ez:f009}}">
+        <div class="reveal">
+          <img class="active" src="{{ez:f010}}" alt="{{ez:f011}}" decoding="async">
+          <img src="{{ez:f012}}" alt="{{ez:f013}}" decoding="async">
+          <img src="{{ez:f014}}" alt="{{ez:f015}}" decoding="async">
+          <img src="{{ez:f016}}" alt="{{ez:f017}}" decoding="async">
+        </div>
+        <span class="sheen" aria-hidden="true"></span>
+        <span class="splash" aria-hidden="true"></span>
+        <span class="pour" aria-hidden="true"></span>
+        <figcaption class="frame-label">{{ez:f018}}</figcaption>
+      </figure>
+    </div>
+  </div>
+</main>
+
+
+
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+  <filter id="pour-edge" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">
+    <feTurbulence type="fractalNoise" baseFrequency="0.012 0.018" numOctaves="2" seed="7" result="noise">
+      <animate attributeName="baseFrequency" dur="17s" repeatCount="indefinite"
+               calcMode="spline" keyTimes="0;0.5;1"
+               keySplines="0.45 0 0.55 1;0.45 0 0.55 1"
+               values="0.012 0.018; 0.017 0.011; 0.012 0.018"/>
+    </feTurbulence>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="18" xChannelSelector="R" yChannelSelector="G">
+      <animate attributeName="scale" dur="11s" repeatCount="indefinite"
+               calcMode="spline" keyTimes="0;0.5;1"
+               keySplines="0.45 0 0.55 1;0.45 0 0.55 1"
+               values="18;11;18"/>
+    </feDisplacementMap>
+  </filter>
+</svg>
+
+
+

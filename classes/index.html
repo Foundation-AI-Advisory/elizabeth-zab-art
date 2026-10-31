@@ -637,6 +637,21 @@ a.ig-btn .ig-glyph{ width:18px; height:18px; }
 .class-booking svg { display:block; width:246px; max-width:100%; height:auto; }
 .class-booking span { font-size:16px; text-decoration:underline; text-underline-offset:4px; }
 .class-booking a:hover span { color:var(--brand-deep); }
+
+/* Center the desktop class introduction and keep the mobile title on one line. */
+@media (min-width:721px) {
+  .page-head { text-align:center; }
+  .page-head h1 { margin-left:auto; margin-right:auto; }
+  .page-head .sub { margin-left:auto; margin-right:auto; }
+  .class-booking { margin-left:auto; margin-right:auto; }
+}
+@media (max-width:720px) {
+  .page-head h1 {
+    font-size:clamp(15px, 4.8vw, 30px);
+    white-space:nowrap;
+    letter-spacing:-0.02em;
+  }
+}
 </style>
 <script type="application/ld+json">
 {

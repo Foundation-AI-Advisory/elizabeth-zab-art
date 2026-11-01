@@ -79,7 +79,7 @@ def pages():
     out = {}
     for f in sorted(ROOT.rglob("*.html")):
         rel = f.relative_to(ROOT)
-        if rel.parts[0] in (".git", "scripts", "_brand", "assets"):
+        if rel.parts[0] in (".git", "scripts", "_brand", "assets", "wordpress"):
             continue
         if rel.name == "404.html":
             continue
@@ -424,7 +424,7 @@ def pages_of(root):
     out = []
     for f in sorted(root.rglob("*.html")):
         rel = f.relative_to(root)
-        if rel.parts[0] in (".git", "scripts", "_brand", "assets"):
+        if rel.parts[0] in (".git", "scripts", "_brand", "assets", "wordpress"):
             continue
         if rel.name == "404.html":
             continue
